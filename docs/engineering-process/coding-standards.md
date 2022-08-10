@@ -57,14 +57,14 @@ to:
 ## Redux
 
 - Understand and embrace the [Redux Toolkit](https://redux-toolkit.js.org/)
-- `redux/slices/<slice-name>.ts` - `slice-name` maps to the attribute keys in the store. i.e. `redux/slices/sites.ts` -> `store.sites`.
+- `redux/slices/<slice-name>.ts` - `slice-name` maps to the attribute keys in the store. i.e. `redux/slices/sites.ts` -> `store.sites`
 - follow the [`byId` design pattern](https://redux.js.org/usage/structuring-reducers/normalizing-state-shape)
-- Use redux for data shared across the app - have an agreement on what is/isn't covered by this.
+- Use redux for data shared across the app - have an agreement on what is/isn't covered by this
 
 # Security
 
-- Do not log sensitive data - generally try to minimize what is logged.
-- Follow the [OWASP Top Ten](https://owasp.org/www-project-top-ten/) at all times.
+- Do not log sensitive data - generally try to minimize what is logged
+- Follow the [OWASP Top Ten](https://owasp.org/www-project-top-ten/) at all times
 - Always patching, always looking for vulnerabilities
 - Investigate synk costs
 
@@ -72,7 +72,7 @@ to:
 
 - We can never have too many tests.
 - add test fixtures to `tests/fixtures` where possible.
-- aiming for 100% coverage on `key-esg-api`
+- aiming for 100% coverage on your APIs.
 
 # API
 

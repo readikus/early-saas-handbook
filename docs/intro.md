@@ -11,28 +11,20 @@ You've been working in software engineering for a while, maybe managed people fo
 
 - There is never enough time. One of the most important factors for success of an early stage startup is prioritisation. You are in a race against time to find product/market fit, so what we are working on needs to make the most use of our valuable time. This influences a lot of technical decisions and you approach work. Balancing this, with product quality, features and UX is something we should remind ourselves of every day.
 
-- Be professional - communication needs to be professional and considerate at ALL TIMES. I have learnt this the hard way, but this is one of the most important basics. Losing your temper only makes you look bad, and creates bad tensions in the team. If you have an under performer, tell them they are under performing and what you expect. This is a really powerful thing Don't
+- Be professional - communication needs to be professional and considerate at ALL TIMES. I have learnt this the hard way, but this is one of the most important basics. Losing your temper only makes _you_ look bad, and creates bad tension in the team. If you have an under performer, deal with them in a clear, structured, professional way. Besides, if they got through the tech interview round and are under performing, explore what is happening. It's a lot easier to not say something than it is to unsay it.
 
 - Make actions or notes. Don't have a conversation about work without any outcomes.
 
-has never The worst
+- Time box meetings and keep focused Don't randomly cover lots of subjects in meetings.
 
-essential
-
-but communication has to be unemotive, not sarcastic (I find this rea)
+* Ask when you are not sure how something works in the app or howx§should work in the .
 
 Launch now
 Build something people want
 Do things that don't scale
-
 Startups can only solve one problem well at any given time
-
 Be nice! Or at least don’t be a jerk
 Get sleep and exercise - take care of yourself
-
-Even if you are managing a developer
-
-when a
 
 - Speak up when you are not sure.
 
@@ -43,8 +35,6 @@ when a
 As a developer, the important factors of success at an early stage start up are:
 
 - Strikes a balance between innovation, technical excellence and delivery.
-
-* Ask when you are not sure how something works in the app or howx§should work in the .
 
 - A willingness to do the boring stuff.
 - Able to capture requirements comprehensively and ensure user stories fulfill all of them.
