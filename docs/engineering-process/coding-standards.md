@@ -3,7 +3,7 @@
 ## Documentation
 
 - Update documentation in this repo
-- [Single source of documentation](./single-source-of-docs.md).
+- [Single source of documentation](../single-source-of-docs.md).
 
 ## CSS
 
@@ -70,11 +70,10 @@ to:
 
 # Testing
 
-- We can never have too many tests.
+- You can never have too many tests.
 - add test fixtures to `tests/fixtures` where possible.
 - aiming for 100% coverage on your APIs.
 
 # API
 
-- See [API docs](./api.md)
 - Aspire to 100% test coverage for back end.

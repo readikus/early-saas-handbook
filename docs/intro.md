@@ -42,7 +42,7 @@ As a developer, the important factors of success at an early stage start up are:
 - Engaged in what we are delivering and care about delivering quality work for our audience.
 - Not needing to be reminded of the same issues every PR.
 - Reduces technical debt when possible as part of developing new features.
-- Closely follows our [coding standards](./coding-standards).
+- Closely follows your [coding standards](./engineering-process/coding-standards).
 - Throughly read and pre-review your code before requesting a review. Remove any commented out code, unnecessary new lines, and check comments are added for edge cases.
 - Discusses large technical changes with the team before implmenting them.
 - Test-driven mindset.
