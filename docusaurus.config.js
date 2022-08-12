@@ -9,7 +9,7 @@ const title = "Early Stage SaaS Startup Handbook";
 const config = {
   title,
   tagline: "Building tech before product/market fit",
-  url: "https://your-docusaurus-test-site.com",
+  url: "https://precious-mochi-9fa3c1.netlify.app", // Url to your site with no trailing slash
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
