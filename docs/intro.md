@@ -13,6 +13,8 @@ You've been working in software engineering for a while, maybe managed people fo
 
 - Be professional - communication needs to be professional and considerate at ALL TIMES. I have learnt this the hard way, but this is one of the most important basics. Losing your temper only makes _you_ look bad, and creates bad tension in the team. If you have an under performer, deal with them in a clear, structured, professional way. Besides, if they got through the tech interview round and are under performing, explore what is happening. It's a lot easier to not say something than it is to unsay it.
 
+- Clearly define responsibilities. If not, as an engineering leader, you'll be doing product and project management, infrastructure, testing, support, dealing with customers and sales. That's what developers do, right?! They might, but the more responsibilities you take on, the lower the quality of your output becomes.
+
 - Make actions or notes. Don't have a conversation about work without any outcomes.
 
 - Time box meetings and keep focused Don't randomly cover lots of subjects in meetings.
