@@ -17,6 +17,8 @@ You've been working in software engineering for a while, maybe managed people fo
 
 - Make actions or notes. Don't have a conversation about work without any outcomes.
 
+- Ask when you are not sure how something works in the app.
+
 - Time box meetings and keep focused Don't randomly cover lots of subjects in meetings.
 
 * Ask when you are not sure how something works in the app or howx§should work in the .
