@@ -3,7 +3,7 @@
 ## Documentation
 
 - Update documentation in this repo
-- [Single source of documentation](../single-source-of-docs.md).
+- [Single source of documentation](./single-source-of-docs.md).
 
 ## CSS
 
@@ -39,6 +39,7 @@ to:
 
 - [TypeScript Course for Beginners 2021 - Learn TypeScript from Scratch!](https://www.youtube.com/watch?v=BwuLxPH8IDs) - I really connect with Maximilian's content and courses.
   = [Donovan's TS course notes](http://hop.ie/blog/learning-typescript/)
+- Embrace it...opportunity to become an expert and educate the rest of the team on advanced aspects of the language.
 - Define types in `index.d.ts`
 - Avoid `any` at all costs! When prototyping, this speeds up development, but do not expect me to merge PRs like this :)
 
@@ -48,32 +49,51 @@ to:
 - Use state correctly
 - Split down to smaller, reusable components.
 - Use styled components
-- Store literal strings in `constants` files. (Not sure of the benefit of this anymore)
+- Replace tailwind with styledcomponents when doing PRs on related code.
+- Store literal strings in `constants` files.
+- Use redux for data shared across the app (i.e. data point config)
 - Minimize use of && operators - a sign a component is being overused, rather than split down into different components.
 - Small line length
-- Minimise props drilling - one of the easiest ways to make React code hard to follow.
+- Minimise props drilling
 - Do not put any display text in the react component. Make use of `constants` design pattern. This is so when we need to i18n the app, we have a starter. LINK TO EXAMPLE
 
 ## Redux
 
 - Understand and embrace the [Redux Toolkit](https://redux-toolkit.js.org/)
-- `redux/slices/<slice-name>.ts` - `slice-name` maps to the attribute keys in the store. i.e. `redux/slices/sites.ts` -> `store.sites`
+- `redux/slices/<slice-name>.ts` - `slice-name` maps to the attribute keys in the store. i.e. `redux/slices/sites.ts` -> `store.sites`.
 - follow the [`byId` design pattern](https://redux.js.org/usage/structuring-reducers/normalizing-state-shape)
-- Use redux for data shared across the app - have an agreement on what is/isn't covered by this
 
 # Security
 
-- Do not log sensitive data - generally try to minimize what is logged
-- Follow the [OWASP Top Ten](https://owasp.org/www-project-top-ten/) at all times
+- Do not log sensitive data - generally try to minimize what is logged.
+- Follow the [OWASP Top Ten](https://owasp.org/www-project-top-ten/) at all times.
 - Always patching, always looking for vulnerabilities
 - Investigate synk costs
 
 # Testing
 
-- You can never have too many tests.
+- We can never have too many tests.
 - add test fixtures to `tests/fixtures` where possible.
-- aiming for 100% coverage on your APIs.
+- aiming for 100% coverage on `key-esg-api`
 
 # API
 
 - Aspire to 100% test coverage for back end.
+
+# Documentation & Comments
+
+- Comments are really useful for edge cases and non-obvious functionality.
+- In the following example from a component called `EditableTableInput`, I like to think developers are intelligent enough to be able to understand what the function does without the comment:
+
+```javascript
+/**
+ * addNewRow
+ *
+ * Add another row below
+ */
+const addNewRow = () => {
+  if (columns) {
+    append(defaultObject);
+  }
+};
+```

@@ -27,6 +27,7 @@ Candidates have the luxury of being picky with so many great opportunities in th
 
 - turning up late
 - rearrange interviews at the last minute
+- ask "What role did you apply for?" (this has happened to me numerous times)
 - clearly haven't read the candidate's CV
 - take a long time to give feedback
 - struggle to make decisions
