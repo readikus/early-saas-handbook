@@ -21,12 +21,13 @@ Intercom's [example spreadsheet](https://docs.google.com/spreadsheets/d/12BY8jlC
 
 End users are the main decision makers for priority. Regular sessions need to be conducted (weekly) to capture requirements and understand what the product is not doing.
 
+## Decide the absolute minimum set of functionality for a feature, then build on it
+
+When building KEY ESG, I saw that users had a shopping list of features they were looking for. To fulfil each of those needs to a high complexity required considerable work. However, many of them could be fulfilled in a much simplier form, then iterated to improve.
+
 ## Signs of stuff that is low priority
 
-* There is no clear decision maker for priority. If a co founder is not confident enough to do this, then they likely are out of their depth.
-* There are no regular meetings to ranking priorities.
-* The backlog is not sorted by priority.
-* Can the functionality be achieved elsewhere in the app?
+* Can the functionality be achieved elsewhere in the app? Required functionality that's not in the app is more important than this.
 * Is it layout-related? Are you fine tuning CSS with no impact on functionality, yet your app is missing essential features?
 * Does it solve an actual need
 * Have people actually asked for it, or are you guessing they need it?
