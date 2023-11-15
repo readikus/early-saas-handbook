@@ -23,6 +23,10 @@ You've been working in software engineering for a while, maybe managed people fo
 
 *Descope aggressively* - a big mistake of first time founders is promising to solve all the problems for everyone in your space. The more that is taken out will make the remaining work stronger.
 
+*We just need to focus on building this feature...* - this is the vibe I've found myself in most weeks for the last 2 years, and it's just not true. You need a clear product vision of a compelling product demo that people makes people throw cash at you.
+
+# The Silver Rules
+
 *Act on valid user feedback*. If a user says they would like to see a feature, which is actually in the app, then it is not being surfaced effectively. Try to find out how they would expect to achieve that functionality, and see if the interface can be reworked to make it more obvious. Similarly, learn to not jump on every single user request, and prioritise into the road map based on what works for the majority, not just that one use case. Focusing too much on a single user can be detrimental.
 
 *Clearly define responsibilities*. Clearly define all the different tasks and decisions that are needed. Having a clear set of boundaries means that everyone knows what is expected from them, and things can’t fall through the cracks. In small teams, where people take on a cross functionality role, there is a big risk of the bystander effect/diffusion of responsibility. In early stage startups the most common issue around this is taking responsibility for the product manager role. Product is easy to blag, but very hard to do properly. When the job is not being done to the level it deserves, others (typically engineers or designers) will step up into this role. Whilst this is good, if a co founder is under the delusion they are doing product, and claim credit for it, think about how that might be received by the people who are actually doing the job.
@@ -55,12 +59,15 @@ You've been working in software engineering for a while, maybe managed people fo
 
 *Respect your team's time* - communication needs to be considerate of people and their time. 
 
+*Be pragmatic about automated testing* - certain functionality is just quicker to build with TDD, but a lot of the time adding meaningful test coverage takes a lot of time. You don't have time and you most likely don't know if that feature is really going to be that useful, so you time doesn't allow for full coverage. This isn't FAANGS - you've only got a small budget to find product/market fit, so focus on delivery rather than perfection. Of course, if you're doing something that relies on accuracy, completely ignore this!
 
+Assure users that you're app is going to break* - it's an alpha, you have no time, the sooner you make. 
 
 *Don’t be a dick.*
 
 *Prioritise!* - adding this again, as it's so important.
 
+*Selectively ignore all of these rules, except the ones on * - what do I know?
 
 - Does your SaaS demonstrate instant value, or does it require hours of use b? No - rethink it unit
 
@@ -118,6 +125,13 @@ As a developer, the important factors of success at an early stage start up are:
 - Discusses large technical changes with the team before implmenting them.
 - Test-driven mindset.
 - Contributes to the culture and education of the tech team.
+
+
+## Artefact
+
+* A product roadmap that's as long as your runway
+* A clear backlog that goes beyond 4 weeks
+* A product demo outline
 
 ## Recommended Videos
 
