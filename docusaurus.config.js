@@ -1,8 +1,10 @@
+//const remarkPlugin = require("remark-plugin");
+
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
-const lightCodeTheme = require("prism-react-renderer/themes/github");
-const darkCodeTheme = require("prism-react-renderer/themes/dracula");
+//const lightCodeTheme = require("prism-react-renderer/themes/github");
+//const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 const title = "Early Stage SaaS Startup Handbook";
 /** @type {import('@docusaurus/types').Config} */
@@ -137,10 +139,11 @@ const config = {
         copyright: `Copyright © ${new Date().getFullYear()} Ian Read. Built with Docusaurus.`,
       },
       prism: {
-        theme: lightCodeTheme,
-        darkTheme: darkCodeTheme,
+       // theme: lightCodeTheme,
+       // darkTheme: darkCodeTheme,
       },
     }),
 };
 
-module.exports = config;
+//module.exports = config;
+export default config;//
