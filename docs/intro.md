@@ -7,6 +7,13 @@ sidebar_position: 1
 
 You've been working in software engineering for a while, maybe managed people for a few years, but suddenly you're in at an early stage start up, and you're thinking what to do! This is the handbook I wished I had when I started my role 6 months ago.
 
+# The Stages
+
+* Find a clear unmet need, define the product vision & recruit your early adopters.
+* Pick the technology that will deliver the main parts of the proof-of-concept with the least effort.
+* Find the engineer(s).
+* Build it!
+
 # The Golden Rules
 
 *It's all about the users* - does your product solve an unmet need? If not, no one will care. "But we have better UX" is not going to persuade anyone to move platforms. People only care about a B2B SaaS if it clearly makes their life easier or richer. Focus on one core feature, find users willing to use the SaaS and give their honest insights, and keep working until the point they'll be upset if the SaaS was taken away.
