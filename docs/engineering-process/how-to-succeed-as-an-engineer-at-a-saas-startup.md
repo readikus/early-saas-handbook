@@ -10,12 +10,36 @@ As a developer, the important factors of success at an early stage start up are:
 
 * Delivers working software, that solves a real user problem, within a deadlines.
 * Engaged in what we are delivering and care about delivering quality work for our audience.
-* Strikes a balance between innovation, technical excellence and delivery.
+* Strikes a pragmatic balance between innovation, technical excellence and delivery.
 * Values user experience above technology stack.
 * Able to capture and refine the full requirements, ensuring that the user is able to fulfill all of them.
-* Can Google "how to ...."
+* Can Google "how to ....".
 * Understands the underlying reason why they made mistakes, and endevours not to do them again.
+* Will choose to use and extend existing tooling, rather than writing their own.  
 * Uses easy-to-understand variable and function naming conventions.
+* Understands the overall fundamentals of computer science, such as algorthm complexity, database design.
+* A solid general knowledge of the essential topics, such as big O time, data structures, core algorithms and infrastructure.
+* Always looking for opportunities to learn new things and understand how others solve these problems.
+* Avoids overfactoring for edge cases that won't happen for years.
+
+
+
+
+- Needed a day off for training...
+
+
+
+
+
+
+UX/UI!! SPACING!!!!
+
+
+
+
+
+
+
 
 # Coding Confidence
 
@@ -255,5 +279,28 @@ Tech Stack
 Aspiration
 
 - design system
-- 
+Assessment Criteria:
 
+
+
+
+
+
+Product & user understanding
+Attention to detail & follows detailed requirements
+Delivery against deadlines
+Learns & Introduces industry best practice
+Quality assurance
+
+
+
+
+
+* Delivers working software, that solves a real user problem, within a deadlines.
+* Engaged in what we are delivering and care about delivering quality work for our audience.
+* Strikes a balance between innovation, technical excellence and delivery.
+* Values user experience above technology stack.
+* Able to capture and refine the full requirements, ensuring that the user is able to fulfill all of them.
+* Can Google "how to ...."
+* Understands the underlying reason why they made mistakes, and endevours not to do them again.
+* Uses easy-to-understand variable and function naming conventions.
