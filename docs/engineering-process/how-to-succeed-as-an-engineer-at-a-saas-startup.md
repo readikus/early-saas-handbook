@@ -75,54 +75,11 @@ Below is a list of issues I've spotted at the code review stage that are red fla
 
 In early-stage startups, there's little room for solo exploration or prolonged periods of independent work on new technologies; being adaptable and focused on the core objective is crucial. Innovative use of new technology is not ruled out, but a pragmatic approach has to be taken to 
 
-
-Strong engineers that want to leverage new technologies typically build proof-of-concept demos in their free time  
-
-
-will learn new
-
-
-build
-
-
-
-
-
-
-
-
-
-
-maybe consider
-
-
- Rust microservice or ChatGPT, 
-
-
-
-
-
-
-
-
-
-
-
-
- are forunate enough to generate vast amounts of money, and the best engineers are rewarded with
-
-
-
-reveneues
-able to generate Some software companies are able  revenue software generates
-There is a clear
+Strong engineers naturally enjoy using new technologies, and will typically build proof-of-concept demos to show if a solution is viable. This tends to just happen during their work time, and the set the work will still get delivered.
 
 * **Respect deadlines**. Early stage startups have very limited budgets and are in a rush to get to market with a new product before someone else. This is not the place for coasting and getting to play with some technology that interests you, this is a place where delivery matters. There will be numerous times where hitting a deadline is not only required, but it's essential to the survival of the company.
 
 * **Switch off social notifications**. Focus and concentration are essential for anyone wanting to be a productive, high performing team member. Software engineering is one of the most financially rewarding careers in the world, and you're not getting paid to send memes to your mates.
-
-
-have someone checking in to as
 
 * **Delivering all the requirements** of a user story. That's right, someone has made a list of 3 bullet points in the user story, and they actually want all 3 of them! They'd absolutely love it if you can read through that list, and make sure you've done them all, rather than having to remind you at the code review stage. If the requirements are unclear or there is some issues involved in achieving that, discuss these rather than submit code for review that ignores them.
 
@@ -131,12 +88,26 @@ have someone checking in to as
 
 
 
+LinkedIn needs a "Community Notes" feature similar to X/Twitter.
+
+Given LinkedIn's role as a platform for career advice, we encounter varying degrees of quality in the advice shared here. Unfortunately, some of it is unhelpful and can even be career-limiting. An anonymous flagging system for identifying and warning against bad advice could be incredibly beneficial.
 
 
 
-Traits to avoid:
+Are we here to genuinely help others, or just to get clicks?! Like & subscribe ;)
 
-Brats, who want things their way "just because" - best question to identify this is to ask what's best out of SQL or NoSQL. The two technologies have essentially converged, some engineers struggle to articulate the relative benefits, and just say "NoSQL is just better". Vue vs React? (React has a zillion more engineers, a much wider community and egosystem)
+
+
+
+
+
+
+
+### Traits to avoid
+
+#### Unfounded Opinions
+
+"this is just better" - a good way to identify this is by asking for explain what is better out of an SQL or NoSQL database. The popular NoSQL and SQL database engines have borrowed ideas from each other, and in essence, converged, meaning that there isn't a whole lot of difference betwee them. Naturally, the nature and use of the data will be the main factor for what you choose, but some engineers struggle to articulate the relative benefits, and just say "NoSQL is just better".
 
 # Product
 
@@ -145,7 +116,7 @@ Brats, who want things their way "just because" - best question to identify this
 
 I consider this a super power. Early stage start ups seldom have an dedicated product manager who will capture the nuanced details of each user story, so you either need to have a photographic memory with total recall, or you need to take notes during discussions. Most piece of work start with an initial discussion of all the requirements, and you'll just be getting used to what the app is, what it does, where it gets data from etc. You are unlikely to be following the specific requirements of the new piece of work, and there is likely to be nuanced technical detail of how to approach the work and any special requirements for design patterns to follow. You'll build something that you think is useful, you'll demo it, then get another set of "new" requirements. Except they're not new, they're everything described in the first call, you just didn't make notes. This really is one of the biggest things I wish all engineers did. If you need all details written down for you, early stage start ups are not for you.
 
-
+### Experiments with new technology
 
 
 # Technical
