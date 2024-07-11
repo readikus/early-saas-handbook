@@ -9,3 +9,8 @@
 7. When ready ([this is ready](./definition-of-done.md)), open a PR and get the engineering lead to review.
 8. After review, PR is merged to `master` branch, and the latest version of that branch will be deployed to `dev.*.com` for manual QA by product
 9. Multiple, small PRs are better than one large one.
+
+
+# Be a better product person
+
+* [world's shortest UI/UX design course](https://www.youtube.com/watch?v=wIuVvCuiJhU)

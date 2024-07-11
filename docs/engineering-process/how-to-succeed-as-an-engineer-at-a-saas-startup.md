@@ -102,16 +102,6 @@ Are we here to genuinely help others, or just to get clicks?! Like & subscribe ;
 
 
 
-
-### Traits to avoid
-
-#### Unfounded Opinions
-
-"this is just better" - a good way to identify this is by asking for explain what is better out of an SQL or NoSQL database. The popular NoSQL and SQL database engines have borrowed ideas from each other, and in essence, converged, meaning that there isn't a whole lot of difference betwee them. Naturally, the nature and use of the data will be the main factor for what you choose, but some engineers struggle to articulate the relative benefits, and just say "NoSQL is just better".
-
-# Product
-
-
 ### Take Notes
 
 I consider this a super power. Early stage start ups seldom have an dedicated product manager who will capture the nuanced details of each user story, so you either need to have a photographic memory with total recall, or you need to take notes during discussions. Most piece of work start with an initial discussion of all the requirements, and you'll just be getting used to what the app is, what it does, where it gets data from etc. You are unlikely to be following the specific requirements of the new piece of work, and there is likely to be nuanced technical detail of how to approach the work and any special requirements for design patterns to follow. You'll build something that you think is useful, you'll demo it, then get another set of "new" requirements. Except they're not new, they're everything described in the first call, you just didn't make notes. This really is one of the biggest things I wish all engineers did. If you need all details written down for you, early stage start ups are not for you.
@@ -121,17 +111,20 @@ I consider this a super power. Early stage start ups seldom have an dedicated pr
 
 # Technical
 
-* **Run your code**. Shouldn't have to write this, yet, experience suggests this is worth noting. If you ever find yourself in this situation, you need to politely ask yourself what sequence of strange events caused this to happen.
+* **Run your code**. Shouldn't have to write this, yet, experience suggests this is worth noting. If you ever find yourself in this situation, you need to politely ask yourself what sequence of strange events caused this to happen. If you're making a change to a piece of functionality, and only running it via a unit test or in Storybook, this isn't a real world test. 
 
 * **Understand edge cases**. What if a user DOESN'T puts a space in a postcode?
+
+# Delivery
 
 * **Understand priorities**. Competent line managers should be clearly communicating the order of priorities for tasks. You may disagree with these, and should certainly raise concerns in a professional manner (i.e. you know something is needed for a sales demo tomorrow), but ultimately, it is their call. If a piece of work is timeboxed, don't continue to work on it just because you're enjoying it.
 
 * **Seek priority calls**. If your line manager is expecting you to be working on a particular bit of work, but someone else has asked you to do something, involve your line manager in making a priority call. As a general rule, the focus should be on functionality that has the widest reach, rather than some special cases for a certain client. They may be a big client, but with SaaS, focus on the many, not the few.
 
-
-
 * **Manage expectations**. Your line managers are responsble for communicating clear priorities, deadlines and assigning work that fits your skill set. As part of this arrangement, they will be expecting you to feedback to them when you don't think a piece of work is likely to get completed in the sprint. They may choose split the user story up, descope some requirements, or pair program with you. An effective senior won't be used to people asking "just checking in on where we are with this?", not because they always  because they either manage expectations or they just get the work done and communicate this.
+
+* **Demo well**. I've worked with some developers that really stand out at being able to "sell" the value of the work they have been doing. This involves being able to explain "why" they have been doing a particular piece of work, talking about the challenges they faced, and demonstrating the ultimate value that the piece of work brings to the app.
+
 
 Furthermore, an engineer that gets things working is great, but if they don't communicate this
 

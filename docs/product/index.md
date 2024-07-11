@@ -11,6 +11,34 @@ Why are we talking about this in a guide to setting up an engineering team when 
 
 
 
+# Product 101
+
+There has been an infinite amount of text written about product that it seems silly to add to it. However, my observation is that so many people are absolutely terrible at it, so I'm collecting together the most important points that I feel can't be repeated enough.
+
+For more indepth introductions to the subject, I highly recommend Marty Cagan's book _Inspired_ as a great place to start.
+
+# MVP - Minimal Viable Product
+
+Getting this understand wrong is the easiest way to really kill your SaaS. Take a minute to absorb that, and really think about it. From my experience, so few people involved in building tech products truely understand this.
+
+Think about it like cars, but at a time when cars didn't exist. You could get places on your horse, train, or maybe on a bicycle (someone will contradict me and say that cars actually came first, but you get the point). At this point, your main goal is to be able to travel. You don't need doors, aircon, electric seats and all the luxuries. When you need to get somewhere, and there is no alternative, people are forgiving. Thankfully the pioneers of photography didn't hold off releasing their product until they achieved HDR colour.
+
+I consider a solid MVP to consist of the following:
+
+* A unique idea, solving an actual problem? If someone else is doing it but with dodgy UX, this is not enough.
+* Can you build an MVP in under 6 months?
+* Do you know your ideal user? Can you find someone in this position who is willing to test your product and give you feedback?
+* Is there a revenue model and will anyone pay for it? Ad revenue doesn't really cut it anymore.
+
+Should you do this idea?
+
+* Is anyone else doing the same thing?
+
+
+ If you're build
+
+
+This is probably the easier
 
 
 

@@ -3,6 +3,30 @@ title: Building the team
 sidebar_position: 1
 ---
 
+
+
+* What are the important attributes to assess in an interview?
+
+
+- Working with recruiters
+
+I find recruiters pretty annoying - the key is finding the non-condescending ones that believe their own LinkedIn posts.
+
+Realistic fees are 10-20%. Anything quoted over 20% is disrespectful, so ignore that.
+
+- Develop an assessment process.
+- No twat policy
+- Dealing with poor performance
+
+283 28th of july onwards
+Thursday 28th - shocks changed on Mondeo
+
+x11
+
+
+
+    
+
 # Interview processes for early stage SaaS roles
 
 The main objective from any technical hiring process is to find the best fit from the talent pool, ensure that they have the right skills and attitude for your startup, whilst also being respectful to the candidates time and not interogating them.
@@ -27,7 +51,10 @@ I've only ever canned an interview midway through, and that was when someone use
 
 Decide on your process early on. Think of a colleague/friend who you would love to have on the team, and see if they are willing to role play your interview process with you. Assuming it is someone you have worked with before, and you know they'd be a great fit, you need to make sure your process gets the best from them. 
 
+Ideal is three stages:
 
+* Screening call - quick intro, does it seem like you'd want to work together?
+* Technical stage - a programming problem, that's very typical of the type of work you do on a daily basis. If front end dev, built a simple react app that gets data from an API and render that. This assesses the basic, day-to-day one
 
 # What to look for
 
@@ -35,7 +62,8 @@ Decide on your process early on. Think of a colleague/friend who you would love 
 # Red Flags
 
 * Candidate fell out with previous companies.
-
+* Late for interview.
+* Not looked into what you do as a company.
 
 Test it - think
 
