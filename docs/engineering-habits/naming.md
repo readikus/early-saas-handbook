@@ -1,5 +1,5 @@
 ---
-title: Engineering Best Practice: Choosing meaningful names for clean code
+title: Engineering Best Practice - Choosing meaningful names for clean code
 sidebar_position: 2
 ---
 

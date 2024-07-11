@@ -3,7 +3,7 @@
 ## Documentation
 
 - Update documentation in this repo
-- [Single source of documentation](./single-source-of-docs.md).
+- Single source of documentation
 
 ## CSS
 

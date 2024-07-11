@@ -13,9 +13,9 @@ This is rhetoric I see a lot on LinkedIn, but when you're trying to get an app b
 
 ## Tasks
 
-- Make a list of the skills you are going to use.
-- Order them like the ingredients in food (i.e. most used first)
-- Decide what skills engineers need experience in, and which you're willing to learn.
+* Make a list of the skills you are going to use.
+* Order them like the ingredients in food (i.e. most used first)
+* Decide what skills engineers need experience in, and which you're willing to learn.
 
 
 
@@ -30,29 +30,21 @@ One of the main things to work out is if they actually understand how the code w
 Two pieces of code that should fail any dev interview:
 
 This is a JavaScript-specific question, so you'll need to find an example if you're using a different language, but essentially anyone who can spot a simple optimisation of this line doesn't understand how callbacks, which is a pretty common pattern in JavaScript.
-
+```
 a.map((obj) => myFunc(obj))
+```
 
-
-
+```
 a.map(myFunc)
-
-
-
-
-
+````
 
 And:
 
 
-
+```
 if (condition) {
-
   var = true
-
 } else {
-
   var = false
-
 }
-
+```

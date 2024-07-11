@@ -1,5 +1,5 @@
 ---
-title: Easy Engineering: Habits and Best Practice
+title: Easy Engineering - Habits and Best Practice
 sidebar_position: 1
 ---
 

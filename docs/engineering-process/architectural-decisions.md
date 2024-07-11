@@ -1,5 +1,5 @@
 ---
-title: Architecture: Getting Consensus on Technical Decisions
+title: Architecture - Getting Consensus on Technical Decisions
 sidebar_position: 2
 ---
 

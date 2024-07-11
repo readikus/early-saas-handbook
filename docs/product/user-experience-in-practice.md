@@ -1,5 +1,5 @@
 ---
-title: User Experience: In Practice for Softare Engineers
+title: User Experience in practice for softare engineers
 sidebar_position: 2
 ---
 
