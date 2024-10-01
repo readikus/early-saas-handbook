@@ -25,6 +25,22 @@ Effective communication is essential in any role. Pay attention to how the candi
 
 Creating a positive interview experience is paramount, even if the candidate isn't the right fit. A respectful and engaging interview process leaves a good impression, which can be beneficial in the long run. Candidates who have a positive experience are more likely to speak well of your company, potentially referring other talented individuals. The only time to consider terminating an interview prematurely is if the candidate displays behavior that is fundamentally misaligned with your company's values, such as using offensive language or expressing discriminatory views (I've had this once when asking about a candidate's experience with accessibility).
 
+## Ownership vs blame
+
+Asking a candidate about a time when they did a bad job is useful for assessing **accountability**, **self-awareness**, and **learning from mistakes**. It helps reveal how they handle failure and whether they take responsibility or shift blame. The key thing to look for is how the frame the problem: do they admit it was their mistake, or are they keen to shift blame. Software engineering involves a lot of trial and error, so it is essential to be able to talk about problems openly, and have the resilience to grow from them.
+
+Red flags to watch for include **blame-shifting**, where the candidate primarily focuses on how others caused the failure or external factors, which could indicate projection or avoidance of responsibility. Another warning sign is a **lack of self-reflection**; if they cannot articulate what went wrong or what they learned, it may suggest a lack of self-awareness. Additionally, be mindful of **excuses or defensiveness**, as these can signal a refusal to accept their role in the failure.
+
+### How to Frame the Question:
+
+You can ask about the candidate's past shortcomings in a way that encourages reflection rather than embarrassment. Here are a few ways to phrase the question:
+
+* _"Tell me about a time when you did not meet your own expectations or the expectations of others. What happened, and how did you handle it?"_
+* _"Can you describe a project or task where things didn’t go as planned? What did you learn from that experience?"_
+* _"What’s a time when you didn’t perform as well as you’d hoped? How did you respond, and what would you do differently now?"_
+
+Look for candidates who show **humility**, **self-reflection**, and a **growth mindset**.
+
 ### Diversity and Inclusion
 
 **Importance of Diversity**: Discuss the significance of diversity and inclusion within your startup. Emphasize how diverse teams bring varied perspectives and innovative ideas, leading to better decision-making and creativity.

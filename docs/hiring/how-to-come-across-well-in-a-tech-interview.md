@@ -18,6 +18,7 @@ The way you handle yourself during an interview process is a big indication of h
 - are easy to get hold of
 - are genuinely interested in the product
 - research your interviewers on LinkedIn
+- never reschedule
 
 Then these are simple things, but demonstrate engagement and a high degree of professionalism.
 

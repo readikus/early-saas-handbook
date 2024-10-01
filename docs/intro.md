@@ -1,13 +1,32 @@
 ---
-title: Introduction
+title: The Founder Engineer's Handbook
 sidebar_position: 1
 ---
 
 # Introduction
 
-You've been working in software engineering for a while, maybe managed people for a few years, but suddenly you're in at an early stage start up, and you're thinking what to do! This is the handbook I wished I had when I started my role 6 months ago.
+You've just accepted a job as a founder engineer at a startup and feeling a bit giddy, but it's starting to dawn on you what you've let yourself in for! Whilst you're a talented engineer, you've not really had to operate as a whole team. In the founder engineer role, it's likely you'll have to take on tasks outside your responsibility. In the last few years, as well as building software, the biggest learning curve has been taking on all the other responsibilities that fall outside the usual definition of an engineering role.
+
+In their simplest form, businesses are successful by doing useful products and services that people are happy to pay for. Those things are thought of as "responibiltiies", which are in turn dellegated to people to do them as part of their "role". In large technical organisations, people usually have very precise roles, and can perform them to an extremely high standard. In an early stage startup that is prerevenue, the budget simply doesn't exist to replicate a large organisation, so you inevitably will be taking on responsibilities that don't fit with your normal role as an engineer. If you're the sort of person that doesn't like the idea of this, you might want to have a chat with the founders about their expectations for the role, and make sure you have alignment.
+
+On the other hand, if you're excited by the idea of getting involved with wider technical responsibilities like devops, testing, security and support, or taking on technical leadership responsibilites like dealing with contractors, hiring talent and dealing with recruiters, meeting with new and existing investors to assure them the startup is great opportunity, as well as the whole sphere of product management, product design and even product marketing, then you've made a great decision. Hopefully some investment has been raised and you won't be wearing all of these hats, but 
+
+This is the handbook I wish I had when I was in this position! Concise overviews of all areas of the working life, practical advice and respected frameworks along with sign posts of to more detailed resources. Time is one of the most premimum resources to early stage start ups, so you're not going to want a 500 page tome.
+
 
 # The Stages
+
+The guide is split into the main areas:
+
+* Audit - what is the idea like? What do the founders bring to the table? What's in it for you? Red flags to look for.
+* Understand the product, and work towards product/market fit.
+* Turning the product vision into a reality. Engineering best practice for rapid development.
+* Building and nuturing the technical team. How to attract talent & be the model colleague.
+
+In established organisations, these roles are usually assigned to people with experience, training and competence in these areas, but in an early stage startup, the budget for the roles doesn't exist, but the responsibilities do, and if they don't get done, the startup will collapse.
+
+
+ORIGINAL VERSISON (possibly bnetter)
 
 * Find a clear unmet need, define the product vision & recruit your early adopters.
 * Pick the technology that will deliver the main parts of the proof-of-concept with the least effort.
@@ -140,6 +159,7 @@ As a developer, the important factors of success at an early stage start up are:
 * A clear backlog that goes beyond 4 weeks
 * A product demo outline
 
-## Recommended Videos
+## Recommended Reading & Videos
 
-- [I'm Not The Best Programmer](https://youtu.be/dHN_tlBEt2c)
+* [I'm Not The Best Programmer](https://youtu.be/dHN_tlBEt2c)
+* [Thriving as a Founding Engineer: Lessons from the Trenches](https://newsletter.pragmaticengineer.com/p/thriving-as-a-founding-engineer)

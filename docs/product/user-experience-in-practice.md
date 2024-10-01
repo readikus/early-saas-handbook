@@ -3,6 +3,8 @@ title: User Experience in practice for softare engineers
 sidebar_position: 2
 ---
 
+![Image](https://media.licdn.com/dms/image/v2/D4E22AQGlP_eFZUlL2w/feedshare-shrink_800/feedshare-shrink_800/0/1697180706305?e=1730332800&v=beta&t=zhKXqyHCKkIB_Qpb2QBqlwUvlODlNo6B7CK
+
 If you're getting the same question from multiple users, it's a clear sign that your UX needs improvement. In an ideal world, we'd have a dedicated product designer to think through the experience and work with users to iron out any pain points or confusion. But in an early-stage startup, when you're driving the product, you often have to take on many different roles. And this is what excites me!
 
 Listening to our users' questions and making changes to our UX to address them is one of the most rewarding parts of the job. I don't gain much energy from a support role, so it's in my best interest to refine the user experience to the point where users don't need to reach out for help—let's be honest, no one wants that!
