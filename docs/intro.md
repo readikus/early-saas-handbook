@@ -152,7 +152,6 @@ As a developer, the important factors of success at an early stage start up are:
 - Test-driven mindset.
 - Contributes to the culture and education of the tech team.
 
-
 ## Artefact
 
 * A product roadmap that's as long as your runway
