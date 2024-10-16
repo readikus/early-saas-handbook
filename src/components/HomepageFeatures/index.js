@@ -4,22 +4,22 @@ import styles from "./styles.module.css";
 
 const FeatureList = [
   {
-    title: "Build the team",
-    Svg: require("@site/static/img/undraw_docusaurus_mountain.svg").default,
-    description: (
-      <>
-        You need to build a team of engineers that are excited about the mission
-        you are going on.
-      </>
-    ),
-  },
-  {
     title: "Understand what people actually want",
     Svg: require("@site/static/img/undraw_docusaurus_tree.svg").default,
     description: (
       <>
         Being a "product-focused" engineer is essential in an early stage start
         up, unless you have infinite money and time.
+      </>
+    ),
+  },
+  {
+    title: "Build the team",
+    Svg: require("@site/static/img/undraw_docusaurus_mountain.svg").default,
+    description: (
+      <>
+        You need to build a team of engineers that are excited about the mission
+        you are going on.
       </>
     ),
   },

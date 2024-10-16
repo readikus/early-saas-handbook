@@ -3,9 +3,11 @@ title: The Founder Engineer's Handbook
 sidebar_position: 1
 ---
 
-# Introduction
+# The Founder Engineers Journey
 
 You've just accepted a job as a founder engineer at a startup and feeling a bit giddy, but it's starting to dawn on you what you've let yourself in for! Whilst you're a talented engineer, you've not really had to operate as a whole team. In the founder engineer role, it's likely you'll have to take on tasks outside your responsibility. In the last few years, as well as building software, the biggest learning curve has been taking on all the other responsibilities that fall outside the usual definition of an engineering role.
+
+The first thing to clear up - the "founder engineering" role is vague, and goes by a few other names: Lead, Engineering Mnager, VP of Engineering or Chief Technical Officer. But this guide is primiarly aimed at the first technical hire in an early stage startup, but that makes a terrible title for a handbook.
 
 In their simplest form, businesses are successful by doing useful products and services that people are happy to pay for. Those things are thought of as "responibiltiies", which are in turn dellegated to people to do them as part of their "role". In large technical organisations, people usually have very precise roles, and can perform them to an extremely high standard. In an early stage startup that is prerevenue, the budget simply doesn't exist to replicate a large organisation, so you inevitably will be taking on responsibilities that don't fit with your normal role as an engineer. If you're the sort of person that doesn't like the idea of this, you might want to have a chat with the founders about their expectations for the role, and make sure you have alignment.
 
@@ -18,20 +20,20 @@ This is the handbook I wish I had when I was in this position! Concise overviews
 
 The guide is split into the main areas:
 
-* Audit - what is the idea like? What do the founders bring to the table? What's in it for you? Red flags to look for.
 * Understand the product, and work towards product/market fit.
 * Turning the product vision into a reality. Engineering best practice for rapid development.
 * Building and nuturing the technical team. How to attract talent & be the model colleague.
 
 In established organisations, these roles are usually assigned to people with experience, training and competence in these areas, but in an early stage startup, the budget for the roles doesn't exist, but the responsibilities do, and if they don't get done, the startup will collapse.
 
-
 ORIGINAL VERSISON (possibly bnetter)
 
 * Find a clear unmet need, define the product vision & recruit your early adopters.
-* Pick the technology that will deliver the main parts of the proof-of-concept with the least effort.
-* Find the engineer(s).
-* Build it!
+* Explore the technology that will deliver the proof-of-concept with the least effort.
+* Build the team
+* Build the product!
+
+Before all of that, we need to have an honest audit into the state of the startup, the founders, the package and the common red flags to look for. Human nature has a magical way of ignoring glaring problems and only seen the greener grass, and I'm not sure the perfect opportunity exists, however we should enter into these ventures with realistic expectations.
 
 # The Golden Rules
 

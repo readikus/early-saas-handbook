@@ -68,6 +68,12 @@ const config = {
         items: [
           {
             type: "doc",
+            docId: "intro",
+            position: "left",
+            label: "The Journey Begins",
+          },
+          {
+            type: "doc",
             docId: "/category/product",
             position: "left",
             label: "Understand the Product",
