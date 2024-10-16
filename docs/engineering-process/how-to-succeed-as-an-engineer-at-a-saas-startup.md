@@ -99,12 +99,22 @@ Are we here to genuinely help others, or just to get clicks?! Like & subscribe ;
 
 
 
-
-
+# The Super Powers
 
 ### Take Notes
 
 I consider this a super power. Early stage start ups seldom have an dedicated product manager who will capture the nuanced details of each user story, so you either need to have a photographic memory with total recall, or you need to take notes during discussions. Most piece of work start with an initial discussion of all the requirements, and you'll just be getting used to what the app is, what it does, where it gets data from etc. You are unlikely to be following the specific requirements of the new piece of work, and there is likely to be nuanced technical detail of how to approach the work and any special requirements for design patterns to follow. You'll build something that you think is useful, you'll demo it, then get another set of "new" requirements. Except they're not new, they're everything described in the first call, you just didn't make notes. This really is one of the biggest things I wish all engineers did. If you need all details written down for you, early stage start ups are not for you.
+
+## Able to summarise
+
+Being able to summarise, with just enough context for your audience to understand is a superpower.
+
+
+
+
+
+
+
 
 ### Experiments with new technology
 
@@ -144,9 +154,6 @@ Sometimes, you've simply done something wrong.
 
 
 ### Technical Excellence
-
-
-
 
 * **Code Orientation** - the ability to identify and learn design patterns from an existing codebase. An important skill when working with a new codebase is being able to find an example of code that achieves a desired goal (i.e. building a serverless API end point in a NextJs app), and mimicking this approach. There is a lot of overlap with this and being familiar with design patterns.
 
