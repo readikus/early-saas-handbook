@@ -1,4 +1,7 @@
-# How to succeed as an engineer at a SaaS startup
+---
+title: How to succeed as an engineer at a SaaS startup
+sidebar_position: 10
+---
 
 This started out as a few bullet points in 2022 that I was trying to put together as part of a study plan to attach to a junior developer role that I was hiring for. In 2022, there had been a giant leap in software engineering salaries (I've always been supportive of this), yet, with a limited hiring budget, I had to think about taking on a junior developer and how we could create a path for them to become a very capable senior in a short amount of time. I envisaged a "wax on, wax off" set of lessons that would distill years of hard experience and wisdom. 
 
@@ -139,10 +142,26 @@ Being able to summarise, with just enough context for your audience to understan
 Furthermore, an engineer that gets things working is great, but if they don't communicate this
 
 
+### Becoming a High-Value Engineer: Key Skills and Traits
 
+Being a "high-value" engineer requires a number of different skills, abilities, and technology.
 
-Presents well.
+#### Learnable traits:
 
+* disciplined
+* humble
+* relentless
+* presents well
+
+#### Technology skills:
+
+* Infrastructure (serverless - https://sst.dev/chapters/what-is-infrastructure-as-code.html)
+* JavaScript
+* React
+* TypeScript
+* Node
+* Databases (postgres/mongodb/dynamodb)
+* GraphQL (bit of a bullshit thing, as it's not a )
 
 * **Not acting upon feedback**. A senior engineer has seen how you have approached a problem, explained a future issue (i.e. this won't scale, you haven't separated your concerns, or whatever reason. They will see this resistence, and then try to explain why it is good practice to take a certain approach. You then push back again, or say "Yeah, I know that...". This pollutes the codebase with rubbish code, and other engineers will forever be having to work around the problems you've either created, or not solved. Everyone else manages to provide their data in a consistent format, except you.
 

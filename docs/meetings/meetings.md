@@ -1,6 +1,9 @@
-# Running Inclusive Meetings
+# Best Practice for Technical Meetings
 
 Running effective, efficient, meaningful, and inclusive meetings is a highly valuable skill. It maximizes time, fosters a sense of belonging, and energizes the team. In early-stage startups, time is the scarcest commodity, and ineffective meetings are a common way to waste it.
+
+
+## Meetings with a Purpose
 
 ### **Macro or Micro?**
 
@@ -18,11 +21,7 @@ Consider setting aside certain times or days as “no meeting” zones to allow 
 
 In early-stage startups, it’s crucial to continuously assess whether meetings are truly necessary and adding value. Every few weeks, review if meetings could be improved, shortened, or eliminated entirely. Can the issue be resolved with a quick message or decision instead? Founder engineers should take the lead in questioning the need for each meeting and cutting down on recurring meetings that no longer serve a clear purpose, while also soliciting feedback from the team to refine the process.
 
-
-
-
 # Meeting Techniques
-
 
 ### **Set an Agenda**
 

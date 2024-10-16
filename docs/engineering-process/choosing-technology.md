@@ -27,5 +27,3 @@ Whilst it may be appealing to use a fresh technology stack, it's worth first con
 ## React vs something else
 
 Something else is a brave move. Whilst there are plenty of arguments why React may not be the best front end library, there are strong commercial reasons to use it. The most imp Firstly, employing developers
-
-##
