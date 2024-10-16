@@ -62,28 +62,40 @@ const config = {
       navbar: {
         title,
         logo: {
-          alt: "My Site Logo",
+          alt: "Founder Engineer Handbook",
           src: "img/logo.svg",
         },
         items: [
           {
             type: "doc",
+            docId: "/category/product",
+            position: "left",
+            label: "Understand the Product",
+          },
+          {
+            type: "doc",
             docId: "/category/building-the-team",
             position: "left",
-            label: "Team Building",
+            label: "Build The Team",
           },
 
           {
             type: "doc",
-            docId: "/category/product",
+            docId: "/category/engineering-process",
             position: "left",
-            label: "Product",
+            label: "Product Engineering",
           },
           {
             type: "doc",
-            docId: "/category/engineering-process",
+            docId: "engineering-habits/index",
             position: "left",
-            label: "Engineering Process",
+            label: "Engineering Habits",
+          },
+          {
+            type: "doc",
+            docId: "meetings/index",
+            position: "left",
+            label: "Meetings",
           },
           { to: "/blog", label: "Blog", position: "left" },
           {
