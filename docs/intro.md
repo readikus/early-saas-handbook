@@ -3,7 +3,7 @@ title: The Founder Engineer's Handbook
 sidebar_position: 1
 ---
 
-# The Founder Engineers Journey
+# The Founder Engineer's Journey
 
 You've just accepted a job as a founder engineer at a startup and feeling a bit giddy, but it's starting to dawn on you what you've let yourself in for! Whilst you're a talented engineer, you've not really had to operate as a whole team. In the founder engineer role, it's likely you'll have to take on tasks outside your responsibility. In the last few years, as well as building software, the biggest learning curve has been taking on all the other responsibilities that fall outside the usual definition of an engineering role.
 
