@@ -20,6 +20,7 @@ This is the handbook I wish I had when I was in this position! Concise overviews
 
 The guide is split into the main areas:
 
+* Is the startup right for you? Understand if the product and team are setup for success.
 * Understand the product, and work towards product/market fit.
 * Turning the product vision into a reality. Engineering best practice for rapid development.
 * Building and nuturing the technical team. How to attract talent & be the model colleague.

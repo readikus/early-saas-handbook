@@ -22,3 +22,4 @@ The best way to have a successful start up is to be honest with yourself. These 
 * Allocate time each week to product.
 * A roadmap.
 * The pitch deck.
+* Runway for 12 months.

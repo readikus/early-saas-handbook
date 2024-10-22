@@ -10,7 +10,7 @@ const title = "The Founder Engineer Handbook";
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title,
-  tagline: "Building tech before product/market fit",
+  tagline: "Product engineering in search of product/market fit",
   url: "https://precious-mochi-9fa3c1.netlify.app", // Url to your site with no trailing slash
   baseUrl: "/",
   onBrokenLinks: "throw",
