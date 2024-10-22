@@ -115,7 +115,7 @@ const StartupEvaluationForm = () => {
             resultMessage = 'This startup appears to lack some key factors for success. Only consider if you are desperate for a job.';
         }
         // Update the result state
-        setResult(`Your Score: ${totalScore}/12. ${resultMessage}`);
+        setResult(`Your Score: ${totalScore}/${maxScore}. ${resultMessage}`);
     };
 
     return (
