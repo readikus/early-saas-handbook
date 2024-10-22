@@ -1,68 +1,86 @@
 // src/components/StartupEvaluationForm.js
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 
 const questions = [
     {
         id: 'foundersExperience',
         label: 'Do the founders have relevant industry experience or a successful startup history?',
         options: [
-            { value: 2, text: 'Yes' },
-            { value: 1, text: 'Somewhat', redFlag: true, redFlagDescription: '🚩 Limited experience may indicate a lack of knowledge in the industry.' },
-            { value: 0, text: 'No', redFlag: true, redFlagDescription: '🚩 No relevant experience raises significant concerns about the team\'s capability.' }
-        ]
-    },
-    {
-        id: 'marketSize',
-        label: 'Is the market opportunity large and growing?',
-        options: [
-            { value: 2, text: 'Yes' },
-            { value: 1, text: 'Uncertain', redFlag: true, redFlagDescription: '🚩 Uncertainty about market size may indicate a weak business foundation.' },
-            { value: 0, text: 'No', redFlag: true, redFlagDescription: '🚩 A small or shrinking market poses a risk for growth and sustainability.' }
-        ]
-    },
-    {
-        id: 'productFit',
-        label: 'Is there clear, unique product-market fit with customer validation?',
-        options: [
-            { value: 2, text: 'Yes' },
-            { value: 1, text: 'Somewhat'},
-            { value: 0, text: 'No', redFlag: true, redFlagDescription: '🚩 No product-market fit suggests the product may not meet customer needs.' }
-        ]
-    },
-    {
-        id: 'revenueModel',
-        label: 'Does the startup have a clear business and revenue model?',
-        options: [
-            { value: 2, text: 'Yes' },
-            { value: 1, text: 'Somewhat', redFlag: true, redFlagDescription: '🚩 Unclear revenue model may lead to financial instability.' },
-            { value: 0, text: 'No', redFlag: true, redFlagDescription: '🚩 Lack of a business model raises significant doubts about profitability.' }
-        ]
-    },
-    {
-        id: 'techVision',
-        label: 'Is the technology vision clear and scalable?',
-        options: [
-            { value: 2, text: 'Yes' },
-            { value: 1, text: 'Somewhat' },
-            { value: 0, text: 'No' }
+            { value: 2, label: 'Yes' },
+            { value: 1, label: 'Somewhat', redFlag: true, redFlagDescription: '🚩 Limited experience may indicate a lack of knowledge in the industry.' },
+            { value: 0, label: 'No', redFlag: true, redFlagDescription: '🚩 No relevant experience raises significant concerns about the team\'s capability. Be prepared to spend a lot of time explaining the basics to them.' }
         ]
     },
     {
         id: 'runway',
         label: 'Does the startup have at least 12-18 months of financial runway?',
         options: [
-            { value: 2, text: 'Yes' },
-            { value: 1, text: 'Not sure', redFlag: true, redFlagDescription: '🚩 Not knowing the runway duration raises concerns about financial management.' },
-            { value: 0, text: 'No', redFlag: true, redFlagDescription: '🚩 Insufficient runway poses a risk of failure before reaching profitability.' }
+            { value: 2, label: 'Yes' },
+            { value: 1, label: 'Not sure', redFlag: true, redFlagDescription: '🚩 Not knowing the runway duration raises concerns about financial management.' },
+            { value: 0, label: 'No', redFlag: true, redFlagDescription: '🚩 Insufficient runway poses a risk of failure before reaching profitability.' }
+        ]
+    },
+    {
+        id: 'marketSize',
+        label: 'Is the market opportunity large and growing?',
+        options: [
+            { value: 2, label: 'Yes' },
+            { value: 1, label: 'Uncertain', redFlag: true, redFlagDescription: '🚩 Uncertainty about market size may indicate a weak business foundation. Ensure the founders have realistic expectations for the exit.' },
+            { value: 0, label: 'No', redFlag: true, redFlagDescription: '🚩 A small or shrinking market poses a risk for growth and sustainability.' }
+        ]
+    },
+    {
+        id: 'productFit',
+        label: 'Is there clear, unique product-market fit with customer validation?',
+        options: [
+            { value: 2, label: 'Yes' },
+            {
+                value: 1,
+                label: 'Somewhat',
+                redFlag: true,
+                redFlagDescription: '🚩 A weak product-market fit indicates the product may not adequately address customer needs. If the founders rely on you to discover a unique solution, it may signal a lack of vision or innovation on their part—proceed with caution.'
+            },
+            {
+                value: 0,
+                label: 'No',
+                redFlag: true,
+                redFlagDescription: '🚩 No product-market fit suggests the product is unlikely to satisfy customer needs. This raises serious concerns about the viability of the startup and its ability to succeed in the market.'
+            }
+        ]
+    },
+    {
+        id: 'userRelationship',
+        label: 'Does the company have relationships with people that fit the ideal user persona?',
+        options: [
+            { value: 2, label: 'Yes' },
+            { value: 0, label: 'No', redFlag: true, redFlagDescription: '🚩 Without meaningful relationships with ideal users, the startup risks creating a product that fails to resonate with its target market, leading to potential misalignment and ultimately, failure.' }
+        ]
+    },
+    {
+        id: 'revenueModel',
+        label: 'Does the startup have a clear business and revenue model?',
+        options: [
+            { value: 2, label: 'Yes' },
+            { value: 1, label: 'Somewhat', redFlag: true, redFlagDescription: '🚩 Unclear revenue model may lead to financial instability.' },
+            { value: 0, label: 'No', redFlag: true, redFlagDescription: '🚩 Lack of a business model raises significant doubts about profitability.' }
+        ]
+    },
+    {
+        id: 'techVision',
+        label: 'Is the technology vision clear and scalable?',
+        options: [
+            { value: 2, label: 'Yes' },
+            { value: 1, label: 'Somewhat' },
+            { value: 0, label: 'No' }
         ]
     },
     {
         id: 'founderTrust',
         label: "Do you trust the founders to act in the best interest of the company?",
         options: [
-            { value: 2, text: "Yes" },
-            { value: 1, text: "Somewhat" },
-            { value: 0, text: "No", redFlag: true, redFlagDescription: "🚩 A lack of trust in the founders may indicate potential mismanagement or misalignment with the company's goals." },
+            { value: 2, label: "Yes" },
+            { value: 1, label: "Somewhat" },
+            { value: 0, label: "No", redFlag: true, redFlagDescription: "🚩 A lack of trust in the founders may indicate potential mismanagement or misalignment with the company's goals." },
         ],
     }
 ];
@@ -78,26 +96,18 @@ const StartupEvaluationForm = () => {
         updatedResponses[index] = value; // Update the response for the specific question
         setResponses(updatedResponses);
 
-        // Check for red flags
-        const selectedOption = questions[index].options.find(option => option.value === value);
-        if (selectedOption && selectedOption.redFlag) {
-            // If it's a red flag, add it to the list of red flags
-            setRedFlags(prev => {
-                //const existingFlag = prev.find(flag => flag.id === questions[index].id);
-                //if (!existingFlag) {
-                    return [...prev, { id: questions[index].id, description: selectedOption.redFlagDescription }];
-                //}
-                return prev;
-            });
-        } else {
-            // Remove the red flag if the selected option is not a red flag
-            setRedFlags(prev => prev.filter(flag => flag.id !== questions[index].id));
-        }
-
-        setTimeout(calculateScore, 100);
+        const updatedRedFlags = updatedResponses
+          .map((response, i) => {
+            const option = questions[i].options.find(opt => opt.value === response);
+            return option && option.redFlag ? { id: questions[i].id, description: option.redFlagDescription } : undefined;
+            })
+          .filter(flag => flag !== undefined); // Remove null entries
+        setRedFlags(updatedRedFlags);
+        console.log('updatedRedFlags', updatedRedFlags, updatedResponses);
     };
 
-    const calculateScore = () => {
+    useEffect(() => {
+
         console.log('responses', responses);
         // Calculate the total score
         const totalScore = responses.reduce((sum, value) =>{ return sum + (value ?? 0)}, 0);
@@ -116,7 +126,9 @@ const StartupEvaluationForm = () => {
         }
         // Update the result state
         setResult(`Your Score: ${totalScore}/${maxScore}. ${resultMessage}`);
-    };
+
+
+    }, [responses]);
 
     return (
         <div>
@@ -151,7 +163,7 @@ const StartupEvaluationForm = () => {
                             <option value="" disabled>Select an option</option> {/* Placeholder option */}
                             {question.options.map(option => (
                                 <option key={option.value} value={option.value}>
-                                    {option.text}
+                                    {option.label}
                                 </option>
                             ))}
                         </select>
@@ -161,7 +173,6 @@ const StartupEvaluationForm = () => {
                     </div>
                 ))}
                 {/* Submit button */}
-                <button type="button" onClick={calculateScore}>Get Evaluation</button>
             </form>
 
             {/* Result section */}
