@@ -2,13 +2,14 @@
 
 No one is perfect, but some people can be total horrific to work with. Here are a few red flags that I've spotted overtime:
 
-* Has an irrational hatred of certain technologies: typically JavaScript, NoSQL databases, SQL databases, in-memory caching, cloud computing.
-* They've never made a mistake. I had the misfortune to work with someone insisted he had only been wrong twice in his life. He was a sociopath, and confused "admitting to being wrong" with actually being wrong.
-* Describes themselves as "polyglot", or "genius".
-* Fixates on certain technology (positively or negatively).
-* High activity on LinkedIn.
-* Repeats the same mistakes.
-* Doesn't read error messages.
+🚩 Fixates on certain technology (positively or negatively). Typically will have an irrational hatred of certain technologies: typically JavaScript, NoSQL databases, SQL databases, in-memory caching, cloud computing, with a weak argument against it.
+🚩 They've never made a mistake. I had the misfortune to work with someone insisted he had only been wrong twice in his life. He was a sociopath, and confused "admitting to being wrong" with actually being wrong.
+🚩 Describes themselves as "polyglot", or "genius".
+🚩 High activity on LinkedIn.
+🚩 Repeats the same mistakes.
+🚩 Doesn't read error messages.
+🚩 Has a grudge against young developers.
+🚩 Is strongly against using AI for writing code.
 
 🚩 🚩 🚩 Code Red Flag of the Week: Overuse of Comments 🚩 🚩 🚩
 
