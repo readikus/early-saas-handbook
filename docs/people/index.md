@@ -1,5 +1,5 @@
 ---
-title: Building the team
+title: Building & the team
 sidebar_position: 1
 ---
 
@@ -23,9 +23,6 @@ Thursday 28th - shocks changed on Mondeo
 
 x11
 
-
-
-    
 
 # Interview processes for early stage SaaS roles
 
@@ -64,6 +61,9 @@ Ideal is three stages:
 * Candidate fell out with previous companies.
 * Late for interview.
 * Not looked into what you do as a company.
+* Don't be blinded by very specific experience. We hired an engineer that had been working with the exact API we were integrating with. Great. Except they worked slowly, and incompotently with the API we were integratng with.
+
+
 
 Test it - think
 

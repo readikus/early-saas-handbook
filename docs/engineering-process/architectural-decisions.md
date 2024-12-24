@@ -7,6 +7,14 @@ sidebar_position: 2
 
 Reaching consensus on technical decisions is critical to ensure smooth progress and alignment among team members when you are trying to move fast. If one engineers builds their module in a single, large function, a new developer will have to spend time understanding the whole piece of code before they attempt to modify it. If the code is well organised and consistent, working with that code will require less cognative load.
 
+Ultimately, as the engineering leader, you are responsibile for the decision. If you have a couple of inexperienced engineers pushing you to use a certain technology, but your gut is telling you that there are some real problems, you need to be the final decision maker. There are an infinite number of technologies out there that are pretty basic, and choosing to use them can come back to haunt you later. Own it - don't be afraid to tell someone that whilst you value their input, we are going to go with technology X for reasons 1, 2, 3. 
+
+
+
+
+
+
+
 ### Getting Consensus on Technical Decisions in Early Stage Startups
 
 Reaching consensus on technical decisions is critical, as it means everyone is working in a consistent way. We have handled this with clear communication, structured decision-making processes, and the use of tools and practices that promote transparency and inclusivity.
