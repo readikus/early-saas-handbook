@@ -10,6 +10,7 @@ No one is perfect, but some people can be total horrific to work with. Here are 
 🚩 Doesn't read error messages.
 🚩 Has a grudge against young developers.
 🚩 Is strongly against using AI for writing code.
+🚩 Lodash instead of ES6+
 
 🚩 🚩 🚩 Code Red Flag of the Week: Overuse of Comments 🚩 🚩 🚩
 
