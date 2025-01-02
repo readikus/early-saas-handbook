@@ -3,7 +3,7 @@ title: How to succeed as an engineer at a SaaS startup
 sidebar_position: 10
 ---
 
-This started out as a few bullet points in 2022 that I was trying to put together as part of a study plan to attach to a junior developer role that I was hiring for. In 2022, there had been a giant leap in software engineering salaries (I've always been supportive of this), yet, with a limited hiring budget, I had to think about taking on a junior developer and how we could create a path for them to become a very capable senior in a short amount of time. I envisaged a "wax on, wax off" set of lessons that would distill years of hard experience and wisdom. 
+In 2022, as software engineering salaries soared—a trend I fully support—I faced a challenge. With a limited hiring budget, I needed to bring on a junior developer and provide them with a clear, accelerated path to becoming a principle engineer. This wasn't just about filling a role; it was about crafting a meaningful journey. I envisioned a "wax on, wax off" approach, inspired by distilling years of hard-earned experience into practical lessons. What started as a few bullet points has since evolved into a framework for fostering growth, resilience, and mastery in software engineering.
 
 ## What bad looks Personal Traits
 
