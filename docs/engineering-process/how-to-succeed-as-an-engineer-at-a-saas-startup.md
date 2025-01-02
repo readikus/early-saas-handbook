@@ -5,17 +5,46 @@ sidebar_position: 10
 
 This started out as a few bullet points in 2022 that I was trying to put together as part of a study plan to attach to a junior developer role that I was hiring for. In 2022, there had been a giant leap in software engineering salaries (I've always been supportive of this), yet, with a limited hiring budget, I had to think about taking on a junior developer and how we could create a path for them to become a very capable senior in a short amount of time. I envisaged a "wax on, wax off" set of lessons that would distill years of hard experience and wisdom. 
 
+## What bad looks Personal Traits
+
+| Catalyst Engineer                                      | Inhibitor Engineer                                |
+|-------------------------------------------------------------------------------------|---------------------------------------------------|
+| Understands the user's goals and the feature's intent; can self-manage effectively. | Struggles to understand the ticket; needs frequent follow-ups. |
+| Identifies and resolves knowledge gaps independently. | Overlooks gaps in knowledge or waits to be told what to do. |
+| Produces solutions that align with product constraints, context, and expectations. | Delivers subpar work that often misses key details or context. |
+| Delivers polished features with good UX and attention to detail. | Outputs poorly designed, unhelpful UX, and visually unappealing solutions. |
+| Takes responsibility and addresses problems proactively. | Deflects responsibility, offering excuses like "That's not my code." |
+| Can handle larger, more abstract tasks; knows what to deliver and in what order. | Struggles with large tasks; often requires a task-list-style breakdown. |
+| Contributes fresh ideas and enhances the product beyond basic requirements. | Rarely offers ideas or enhancements; sticks to minimal implementation. |
+| Inspires and energizes the team; is enjoyable to collaborate with. | Drains enthusiasm; is challenging to work with and often uncooperative. |
+| Welcomes feedback and uses it to improve.          | Resists feedback and sees it as micromanagement. |
+| Elevates the team, product, and work culture.       | Hinders progress, requiring extra management and effort. |
+
+
+
+A great engineer will try to understand what a user is trying to achieve with a feature, and once they get that, they will be able to self manage themselves to get it done. They will work out what they don't know, know it, then deliver something that fits too all the other constraints and context that they've previously learnt about the product. Eventually a great engineer won't need detailed user stories, as they will know what needs to be delivered and in what order. They will contribute fresh ideas and generally be a pleasure to work with, and inspire you to work even harder.
+
+A non great engineer will not understand their ticket, need chasing for delivery, not consider all the context and technical details they've been told, it will look terrible, have unhelpful UX and it's even debatable if it actually works. Any issues with the app will be met with excuses ("that's not my code" or "it should work". Their lack of delivery will result in them getting increasingly smaller user stories that resemble a task list, and they will complain about being micro managed. You will find them a challenge to work with as they suck enthusim from you.
+
+
+
+
+The two most important factors for success of a seed stage startup are prioritisation and delivery. You are in a race against time to find product/market fit, so what we are working on needs to make the most use of our valuable time, and it also needs to get in front of users. This influences a lot of our technical decisions and how we approach execute.
+
+
+
 ## Personal Traits
 
-One of the most important factors for success of a seed stage startup is prioritisation. You are in a race against time to find product/market fit, so what we are working on needs to make the most use of our valuable time. This influences a lot of our technical decisions and how we approach work. Balancing this, with product quality, features and UX is something we should remind ourselves of every day.
+
 
 As a developer, the important factors of success at an early stage start up are:
 
 * Delivers working software, that solves a real user problem, within a deadlines.
+* Strikes a balance between innovation, technical excellence and delivery.
 * Engaged in what we are delivering and care about delivering quality work for our audience.
+* Able to capture and refine the full requirements, ensuring that the user is able to fulfill all of them.
 * Strikes a pragmatic balance between innovation, technical excellence and delivery.
 * Values user experience above technology stack.
-* Able to capture and refine the full requirements, ensuring that the user is able to fulfill all of them.
 * Can Google "how to ....".
 * Understands the underlying reason why they made mistakes, and endevours not to do them again.
 * Will choose to use and extend existing tooling, rather than writing their own.  
@@ -24,25 +53,7 @@ As a developer, the important factors of success at an early stage start up are:
 * A solid general knowledge of the essential topics, such as big O time, data structures, core algorithms and infrastructure.
 * Always looking for opportunities to learn new things and understand how others solve these problems.
 * Avoids overfactoring for edge cases that won't happen for years.
-
-
-
-
-- Needed a day off for training...
-
-
-
-
-
-
-UX/UI!! SPACING!!!!
-
-
-
-
-
-
-
+* Will be self managing, and not need to be chased endlessly.
 
 # Coding Confidence
 
@@ -91,29 +102,22 @@ Strong engineers naturally enjoy using new technologies, and will typically buil
 
 
 
-LinkedIn needs a "Community Notes" feature similar to X/Twitter.
-
-Given LinkedIn's role as a platform for career advice, we encounter varying degrees of quality in the advice shared here. Unfortunately, some of it is unhelpful and can even be career-limiting. An anonymous flagging system for identifying and warning against bad advice could be incredibly beneficial.
-
-
-
-Are we here to genuinely help others, or just to get clicks?! Like & subscribe ;)
 
 
 
 
 # The Super Powers
 
-### Take Notes
+
+### User Empathy
+
+### Notetaker
 
 I consider this a super power. Early stage start ups seldom have an dedicated product manager who will capture the nuanced details of each user story, so you either need to have a photographic memory with total recall, or you need to take notes during discussions. Most piece of work start with an initial discussion of all the requirements, and you'll just be getting used to what the app is, what it does, where it gets data from etc. You are unlikely to be following the specific requirements of the new piece of work, and there is likely to be nuanced technical detail of how to approach the work and any special requirements for design patterns to follow. You'll build something that you think is useful, you'll demo it, then get another set of "new" requirements. Except they're not new, they're everything described in the first call, you just didn't make notes. This really is one of the biggest things I wish all engineers did. If you need all details written down for you, early stage start ups are not for you.
 
 ## Able to summarise
 
-Being able to summarise, with just enough context for your audience to understand is a superpower.
-
-
-
+Being able to summarise, with just enough context for your audience to understand is a superpower. You have two serious types of problem engineers - the overbearing ones that are shit, but think they're amazing and dominate meetings by waffling shit, or the ones that never contribute a single idea.
 
 
 
@@ -124,7 +128,7 @@ Being able to summarise, with just enough context for your audience to understan
 
 # Technical
 
-* **Run your code**. Shouldn't have to write this, yet, experience suggests this is worth noting. If you ever find yourself in this situation, you need to politely ask yourself what sequence of strange events caused this to happen. If you're making a change to a piece of functionality, and only running it via a unit test or in Storybook, this isn't a real world test. 
+* **Run your code**. Shouldn't have to write this, yet, experience suggests this is worth noting. If you ever find yourself in this situation, you need to politely ask yourself what sequence of strange events caused this to happen. If you're making a change to a piece of functionality, and only running it via a unit test or in Storybook, this isn't a real world test.
 
 * **Understand edge cases**. What if a user DOESN'T puts a space in a postcode?
 
@@ -152,15 +156,16 @@ Being a "high-value" engineer requires a number of different skills, abilities, 
 * humble
 * relentless
 * presents well
+* organised and don't need asking twice to do something
 
 #### Technology skills:
 
-* Infrastructure (serverless - https://sst.dev/chapters/what-is-infrastructure-as-code.html)
+* Infrastructure
 * JavaScript
 * React
 * TypeScript
 * Node
-* Databases (postgres/mongodb/dynamodb)
+* Databases (SQL/NoSQL)
 * GraphQL (bit of a bullshit thing, as it's not a )
 
 * **Not acting upon feedback**. A senior engineer has seen how you have approached a problem, explained a future issue (i.e. this won't scale, you haven't separated your concerns, or whatever reason. They will see this resistence, and then try to explain why it is good practice to take a certain approach. You then push back again, or say "Yeah, I know that...". This pollutes the codebase with rubbish code, and other engineers will forever be having to work around the problems you've either created, or not solved. Everyone else manages to provide their data in a consistent format, except you.
@@ -286,11 +291,3 @@ Quality assurance
 
 
 
-* Delivers working software, that solves a real user problem, within a deadlines.
-* Engaged in what we are delivering and care about delivering quality work for our audience.
-* Strikes a balance between innovation, technical excellence and delivery.
-* Values user experience above technology stack.
-* Able to capture and refine the full requirements, ensuring that the user is able to fulfill all of them.
-* Can Google "how to ...."
-* Understands the underlying reason why they made mistakes, and endevours not to do them again.
-* Uses easy-to-understand variable and function naming conventions.
