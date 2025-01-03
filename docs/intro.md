@@ -22,7 +22,6 @@ The guide is split into the main areas:
 
 * Is the startup right for you? Understand if the product and team are setup for success.
 * Understand the product, and work towards product/market fit.
-* Turning the product vision into a reality. Engineering best practice for rapid development.
 * Building and nuturing the technical team. How to attract talent & be the model colleague.
 
 In established organisations, these roles are usually assigned to people with experience, training and competence in these areas, but in an early stage startup, the budget for the roles doesn't exist, but the responsibilities do, and if they don't get done, the startup will collapse.
@@ -30,11 +29,18 @@ In established organisations, these roles are usually assigned to people with ex
 ORIGINAL VERSISON (possibly bnetter)
 
 * Find a clear unmet need, define the product vision & recruit your early adopters.
-* Explore the technology that will deliver the proof-of-concept with the least effort.
-* Build the team
-* Build the product!
+* Turning the product vision into a reality. Explore the technology that will deliver the proof-of-concept with the least effort.
+* Building and nuturing the technical team. How to attract talent & be the model colleague.
 
 Before all of that, we need to have an honest audit into the state of the startup, the founders, the package and the common red flags to look for. Human nature has a magical way of ignoring glaring problems and only seen the greener grass, and I'm not sure the perfect opportunity exists, however we should enter into these ventures with realistic expectations.
+
+# The Common Challenges
+
+From my experience, there are three main problems that you will face. With any of these being a problem, it's unlikely to work:
+
+* The vision - if this is a bad and not what a big enough audience want, it will likely fail.
+* The founders - if they are bad, the product will likely fail.
+* The team - if these are bad, the product will likely fail. Very early stage startups are unproven and unattractive.
 
 # The Golden Rules
 
