@@ -23,7 +23,7 @@ End users are the main decision makers for priority. Regular sessions need to be
 
 ## Decide the absolute minimum set of functionality for a feature, then build on it
 
-When building KEY ESG, I saw that users had a shopping list of features they were looking for. To fulfil each of those needs to a high complexity required considerable work. However, many of them could be fulfilled in a much simplier form, then iterated to improve.
+When building a previous MVP, I saw that users had a shopping list of features they were looking for. To fulfil each of those _well_, needed significant work. However, a lot of the times these were "nice to haves", and we could offer them in a much simplier form, then iterated to improve. Once we had these in place, sales cycles reduced.
 
 ## Signs of stuff that is low priority
 
