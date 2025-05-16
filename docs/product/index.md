@@ -5,7 +5,7 @@ sidebar_position: 0
 
 # Surely product handle this, not engineering!
 
-One of the most common startup mistakes is prioritizing software development over effective product management. Should your investment go into building code that can be clicked, or should it be directed towards defining a product strategy that will connect with an audience?
+Early startup tend to fail because of problems related to "product", rather than technical choices. There is a strong tendancy to prioritize software development over effective product management. Once you have secured investment, there is a frenzy to get building code that can be clicked, rather than spending a small amount of time defining a product strategy that will connect with an audience.
 
 Why are we talking about this in a guide to setting up an engineering team when product is a responsibility handled out of engineering? Experience suggests that the reality is quite different. A lot of non-engineers like to consider themselves as having a talent for product, but hey, I like to think I'm great at stuff I've never even read a book on.
 
