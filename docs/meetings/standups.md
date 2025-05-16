@@ -26,7 +26,7 @@ Competent engineers should be able to provide their updates succinctly and clear
 While stand-ups are designed to be efficient and informative, there are a few red flags to watch out for:
 
 - **"Been working on stuff":** Don't be vague. Specificity is key to providing useful updates.
-- **Repeatedly dominating the meeting:** If you find yourself talking more than others, it may be a sign you're not being concise. This behavior can disrupt the meeting and indicate poor communication skills.
+- **Repeatedly dominating the meeting:** If you find yourself talking more than others, it may be a sign you're not being concise. This behavior is really disrupt, indicate poor communication skills and lack of respect for the rest.
 - **Discussing non-relevant topics:** Stand-ups should focus on the current sprint and immediate issues. Long-term planning and off-topic discussions should be taken offline.
 - **Using technical jargon:** Avoid using jargon that might not be understood by all team members. Clear communication is essential.
 
