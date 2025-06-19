@@ -18,12 +18,6 @@ Realistic fees are 10-20%. Anything quoted over 20% is disrespectful, so ignore 
 - No twat policy
 - Dealing with poor performance
 
-283 28th of july onwards
-Thursday 28th - shocks changed on Mondeo
-
-x11
-
-
 # Interview processes for early stage SaaS roles
 
 The main objective from any technical hiring process is to find the best fit from the talent pool, ensure that they have the right skills and attitude for your startup, whilst also being respectful to the candidates time and not interogating them.
