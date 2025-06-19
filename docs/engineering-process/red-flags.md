@@ -1,18 +1,29 @@
-## Red Flags
+---
+title: Red Flags
+sidebar_position: 5
+---
 
 No one is perfect, but some people can be total horrific to work with. Here are a few red flags that I've spotted overtime:
 
+🚩 Irrational hatred of AI for engineering. Defensive projection - avoid these people at all costs!
+
+🚩 Describes themselves as "polyglot", or "genius". Avoid at all costs, yet to see an exception to this rule!
+
 🚩 Fixates on certain technology (positively or negatively). Typically will have an irrational hatred of certain technologies: typically JavaScript, NoSQL databases, SQL databases, in-memory caching, cloud computing, with a weak argument against it.
+
 🚩 They've never made a mistake. I had the misfortune to work with someone insisted he had only been wrong twice in his life. He was a sociopath, and confused "admitting to being wrong" with actually being wrong.
-🚩 Describes themselves as "polyglot", or "genius".
+
 🚩 High activity on LinkedIn.
+
 🚩 Repeats the same mistakes.
-🚩 Doesn't read error messages.
+
+🚩 Doesn't read error messages during a coding interview.
+
 🚩 Has a grudge against young developers.
-🚩 Is strongly against using AI for writing code.
+
 🚩 Lodash instead of ES6+
 
-🚩 🚩 🚩 Code Red Flag of the Week: Overuse of Comments 🚩 🚩 🚩
+🚩 🚩 🚩 Code Red Flag: Overuse of Comments 🚩 🚩 🚩
 
 Comments explaining obvious parts of the code can indicate that the original developer might not fully understand the language, library, or framework. These are standard coding patterns that anyone familiar with React components in TypeScript would already know, so explaining them just adds unnecessary clutter. It's like watching a cooking show where every episode spends 15 minutes explaining how to use a garlic press—completely redundant.
 
@@ -35,24 +46,24 @@ const TrendIndicator = ({ value, change, desireDirection }: Props) => {
 
 This particular example is from a ChatGPT-generated refactor I'm working on, but I've encountered it in real-world code before.
 
+🚩 🚩 🚩 Code Red Flag: Misunderstanding Callbacks 🚩 🚩 🚩
 
+Two pieces of code that should raise concerns in a dev interview:
 
+This is a JavaScript-specific example, but the principle applies to other languages as well. Anyone who fails to recognize a simple optimization opportunity in the following line demonstrates a lack of understanding of callbacks, a fundamental pattern in JavaScript.
 
-
-
-Two pieces of code that should fail any dev interview:
-
-This is a JavaScript-specific question, so you'll need to find an example if you're using a different language, but essentially anyone who can spot a simple optimisation of this line doesn't understand how callbacks, which is a pretty common pattern in JavaScript.
 ```
 a.map((obj) => myFunc(obj))
 ```
 
 ```
 a.map(myFunc)
-````
+```
 
-And:
 
+🚩 🚩 🚩 Code Red Flag: Explict Boolean Returns 🚩 🚩 🚩
+
+Additionally, the following code snippet also indicates a misunderstanding of basic control structures:
 
 ```
 if (condition) {
