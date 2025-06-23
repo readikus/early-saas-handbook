@@ -1,0 +1,8 @@
+{
+  "label": "AI Engineering Cookbook",
+  "position": 4,
+  "link": {
+    "type": "generated-index",
+    "description": "This section outlines best practices for using AI-assisted coding tools effectively. While AI may fall short in some development scenarios, it excels in many others. Getting the most from these tools requires more than just adopting the technology—it also means adapting your workflows to align with the strengths and limitations of AI. A pragmatic, open-minded approach is key to integrating AI into the software development lifecycle. Done right, this enables faster and more efficient product delivery. This section explores how to methodically incorporate AI into your workflow and highlights tools that can significantly improve outcomes."
+  }
+} 

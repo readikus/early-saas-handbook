@@ -76,13 +76,13 @@ const config = {
             type: "doc",
             docId: "/category/product",
             position: "left",
-            label: "Understand the Product",
+            label: "Product",
           },
           {
             type: "doc",
             docId: "/category/building-the-team",
             position: "left",
-            label: "Build The Team",
+            label: "Team",
           },
 
           {
@@ -90,6 +90,12 @@ const config = {
             docId: "/category/engineering-process",
             position: "left",
             label: "Product Engineering",
+          },
+          {
+            type: "doc",
+            docId: "/category/ai-engineering-cookbook",
+            position: "left",
+            label: "AI Cookbook",
           },
           {
             type: "doc",
@@ -103,7 +109,6 @@ const config = {
             position: "left",
             label: "Meetings",
           },
-          { to: "/blog", label: "Blog", position: "left" },
           {
             href: "https://github.com/readikus/docusaurus",
             label: "GitHub",
