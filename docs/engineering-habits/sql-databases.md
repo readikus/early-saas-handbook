@@ -1,6 +1,6 @@
 ---
 title: Engineering Super Power - Master SQL Database Design & Optimisation
-sidebar_position: 3
+sidebar_position: 4
 ---
 
 A strong foundation in SQL is a game-changer for any tech career. Understanding relationships, normalization, joins, indexes, and schema management gives you the ability to work efficiently with data—an essential skill in nearly every engineering role.

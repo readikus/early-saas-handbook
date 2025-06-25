@@ -99,13 +99,13 @@ const config = {
           },
           {
             type: "doc",
-            docId: "engineering-habits/index",
+            docId: "/category/engineering-habits",
             position: "left",
             label: "Engineering Habits",
           },
           {
             type: "doc",
-            docId: "meetings/index",
+            docId: "/category/meetings",
             position: "left",
             label: "Meetings",
           },
