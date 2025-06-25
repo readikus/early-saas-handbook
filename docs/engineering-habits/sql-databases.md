@@ -17,13 +17,13 @@ I once worked on a large logistics platform that needed to process a full day’
 
 Relational databases may not be the most exciting part of tech, but they are absolutely foundational. Ignore them at your own risk!
 
-- [@course@Databases and SQL](https://www.edx.org/course/databases-5-sql)
-- [@video@What is Relational Database](https://youtu.be/OqjJjpjDRLc)
-- [@article@Relational Databases](https://www.ibm.com/cloud/learn/relational-databases)
-- [@article@51 Years of Relational Databases](https://learnsql.com/blog/codd-article-databases/)
-- [@article@Intro To Relational Databases](https://www.udacity.com/course/intro-to-relational-databases--ud197)
-- [@feed@Explore top posts about Backend Development](https://app.daily.dev/tags/backend?ref=roadmapsh)
-- [@article@What is a Database?](https://www.oracle.com/database/what-is-database/)
-- [@article@What are Databases?](https://www.prisma.io/dataguide/intro/what-are-databases)
-- [@video@DBMS by Stanford](https://www.youtube.com/watch?v=D-k-h0GuFmE\&list=PL9ysvtVnryGpnIj9rcIqNDxakUn6v72Hm)
-- [@feed@Explore top posts about Backend Development](https://app.daily.dev/tags/backend?ref=roadmapsh)
+- 📚 [Databases and SQL](https://www.edx.org/course/databases-5-sql)
+- 🎥 [What is Relational Database](https://youtu.be/OqjJjpjDRLc)
+- 📄 [Relational Databases](https://www.ibm.com/cloud/learn/relational-databases)
+- 📄 [51 Years of Relational Databases](https://learnsql.com/blog/codd-article-databases/)
+- 📄 [Intro To Relational Databases](https://www.udacity.com/course/intro-to-relational-databases--ud197)
+- 📰 [Explore top posts about Backend Development](https://app.daily.dev/tags/backend?ref=roadmapsh)
+- 📄 [What is a Database?](https://www.oracle.com/database/what-is-database/)
+- 📄 [What are Databases?](https://www.prisma.io/dataguide/intro/what-are-databases)
+- 🎥 [DBMS by Stanford](https://www.youtube.com/watch?v=D-k-h0GuFmE&list=PL9ysvtVnryGpnIj9rcIqNDxakUn6v72Hm)
+- 📰 [Explore top posts about Backend Development](https://app.daily.dev/tags/backend?ref=roadmapsh)

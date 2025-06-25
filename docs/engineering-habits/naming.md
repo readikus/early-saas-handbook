@@ -3,7 +3,7 @@ title: Engineering Superpower - Making your code obvious
 sidebar_position: 3
 ---
 
-#### **Problem: Even you don't understand your own code**
+## **Problem: Even you don't understand your own code**
 
 When writing code, one of the most significant ways to improve its readability and maintainability is choosing meaningful names for variables, functions, and classes. Descriptive and clear names act as a form of documentation, helping other developers (and your future self) understand the code's intent and functionality without needing extensive comments or explanations.
 
