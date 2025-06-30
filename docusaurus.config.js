@@ -6,7 +6,7 @@
 //const lightCodeTheme = require("prism-react-renderer/themes/github");
 //const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
-const title = "The Founder Engineer Handbook";
+const title = "The Startup Engineer Handbook";
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title,
@@ -62,7 +62,7 @@ const config = {
       navbar: {
         title,
         logo: {
-          alt: "Founder Engineer Handbook",
+          alt: "Startup Engineer Handbook",
           src: "img/logo.svg",
         },
         items: [

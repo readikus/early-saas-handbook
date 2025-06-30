@@ -19,7 +19,7 @@ Consider setting aside certain times or days as “no meeting” zones to allow 
 
 ### **Regularly Challenge the Need for Meetings**
 
-In early-stage startups, it’s crucial to continuously assess whether meetings are truly necessary and adding value. Every few weeks, review if meetings could be improved, shortened, or eliminated entirely. Can the issue be resolved with a quick message or decision instead? Founder engineers should take the lead in questioning the need for each meeting and cutting down on recurring meetings that no longer serve a clear purpose, while also soliciting feedback from the team to refine the process.
+In early-stage startups, it’s crucial to continuously assess whether meetings are truly necessary and adding value. Every few weeks, review if meetings could be improved, shortened, or eliminated entirely. Can the issue be resolved with a quick message or decision instead? Startup engineers should take the lead in questioning the need for each meeting and cutting down on recurring meetings that no longer serve a clear purpose, while also soliciting feedback from the team to refine the process.
 
 # Meeting Techniques
 
@@ -27,7 +27,7 @@ In early-stage startups, it’s crucial to continuously assess whether meetings 
 
 A meeting without an agenda is just a chat. Creating an agenda forces you to focus on the meeting’s purpose. As you prepare it, you might realize you could just ask one person a quick question on Slack, or you could reduce the invite list, allowing others to use their time more effectively. The agenda should cover the key points that need to be addressed.
 
-Set time limits for agenda items to ensure that discussions don’t drag on unnecessarily. Founder engineers need to be decisive, and timeboxing agenda items encourages focused conversation. If a topic needs more time, it can be scheduled for another meeting or dealt with offline.
+Set time limits for agenda items to ensure that discussions don’t drag on unnecessarily. Startup engineers need to be decisive, and timeboxing agenda items encourages focused conversation. If a topic needs more time, it can be scheduled for another meeting or dealt with offline.
 
 ### **Define the Role of Each Participant**
 
@@ -35,7 +35,7 @@ Clarify why each person is invited and what role they play in the meeting. This 
 
 ### **Prepare Ahead of Time**
 
-Encourage participants to come prepared. Share relevant documents, data, or proposals beforehand so the meeting time is spent discussing and deciding, not presenting or reviewing materials for the first time. Founder engineers often lead by example—if you come prepared, the rest of the team is likely to follow.
+Encourage participants to come prepared. Share relevant documents, data, or proposals beforehand so the meeting time is spent discussing and deciding, not presenting or reviewing materials for the first time. Startup engineers often lead by example—if you come prepared, the rest of the team is likely to follow.
 
 
 ### **Embrace “Disagree and Commit”**
@@ -44,7 +44,7 @@ In early-stage startups, it’s important to make quick decisions and move fast.
 
 ### **Ensure Psychological Safety**
 
-For meetings to be inclusive, everyone needs to feel safe speaking up, even if their ideas are unconventional or they disagree with others. Founder engineers can set the tone by modeling openness to feedback, encouraging questions, and making it clear that different viewpoints are valued.
+For meetings to be inclusive, everyone needs to feel safe speaking up, even if their ideas are unconventional or they disagree with others. Startup engineers can set the tone by modeling openness to feedback, encouraging questions, and making it clear that different viewpoints are valued.
 
 ### **Define Clear Outcomes**
 
@@ -58,11 +58,11 @@ In early-stage startups, there’s rarely a dedicated project manager or technic
 
 ### **Rotate Meeting Leadership**
 
-It can be helpful to rotate who leads meetings, especially in smaller teams. This fosters a sense of shared responsibility and allows junior team members to develop leadership skills. For founder engineers, this also helps avoid the trap of micromanaging every meeting.
+It can be helpful to rotate who leads meetings, especially in smaller teams. This fosters a sense of shared responsibility and allows junior team members to develop leadership skills. For startup engineers, this also helps avoid the trap of micromanaging every meeting.
 
 ### **Action-Driven Follow-Ups**
 
-After the meeting, ensure that follow-ups are action-driven and not just summaries. Outline specific next steps, who’s responsible, and deadlines. Founder engineers often juggle many roles, so clear action items help ensure nothing falls through the cracks.
+After the meeting, ensure that follow-ups are action-driven and not just summaries. Outline specific next steps, who’s responsible, and deadlines. Startup engineers often juggle many roles, so clear action items help ensure nothing falls through the cracks.
 
 ### **Encourage Equal Participation**
 
