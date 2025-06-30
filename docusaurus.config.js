@@ -165,6 +165,15 @@ const config = {
        // theme: lightCodeTheme,
        // darkTheme: darkCodeTheme,
       },
+      metadata: [
+        { property: 'og:image', content: 'https://startupengineer.work/img/saas-banner.png' },
+        { property: 'og:image:width', content: '1200' },
+        { property: 'og:image:height', content: '630' },
+        { property: 'og:type', content: 'website' },
+        { name: 'twitter:card', content: 'summary_large_image' },
+        { name: 'twitter:image', content: 'https://startupengineer.work/img/saas-banner.png' },
+        // ... any other meta tags ...
+      ],
     }),
 };
 
