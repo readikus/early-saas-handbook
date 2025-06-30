@@ -172,6 +172,7 @@ const config = {
         { property: 'og:type', content: 'website' },
         { name: 'twitter:card', content: 'summary_large_image' },
         { name: 'twitter:image', content: 'https://startupengineer.work/img/saas-banner.png' },
+        { name: 'google-site-verification', content: 'z6xKQtDQOzH9EEvIoej8t1m99VU06Sz37aYjKjLaCjI' },
         // ... any other meta tags ...
       ],
     }),

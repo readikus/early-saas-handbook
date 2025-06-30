@@ -46,21 +46,6 @@ const TrendIndicator = ({ value, change, desireDirection }: Props) => {
 
 This particular example is from a ChatGPT-generated refactor I'm working on, but I've encountered it in real-world code before.
 
-🚩 🚩 🚩 Code Red Flag: Misunderstanding Callbacks 🚩 🚩 🚩
-
-Two pieces of code that should raise concerns in a dev interview:
-
-This is a JavaScript-specific example, but the principle applies to other languages as well. Anyone who fails to recognize a simple optimization opportunity in the following line demonstrates a lack of understanding of callbacks, a fundamental pattern in JavaScript.
-
-```
-a.map((obj) => myFunc(obj))
-```
-
-```
-a.map(myFunc)
-```
-
-
 🚩 🚩 🚩 Code Red Flag: Explict Boolean Returns 🚩 🚩 🚩
 
 Additionally, the following code snippet also indicates a misunderstanding of basic control structures:
@@ -72,3 +57,17 @@ if (condition) {
   var = false
 }
 ```
+
+🚩 🚩 🚩 Code Red Flag: Misunderstanding Callbacks 🚩 🚩 🚩
+
+A common red flag in interviews is when a candidate cannot clearly explain what a callback is, how it works, or when to use one. This is especially important in JavaScript and other languages that use higher-order functions.
+
+For example, if a candidate struggles to:
+
+- Describe what a callback function is and why it's useful.
+- Demonstrate how to pass a function as an argument to another function.
+- Explain the difference between invoking a function and passing a function reference.
+- Recognize when a callback is needed for asynchronous operations (like in event handlers, timers, or API calls).
+
+These gaps indicate a lack of understanding of a fundamental programming concept.
+
