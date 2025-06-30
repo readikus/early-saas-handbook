@@ -25,7 +25,7 @@ Use AI (Cursor, ChatGPT, etc.) to explore *approaches*, not just snippets. Start
 - “What are common edge cases?”
 - "Are there any open-source components that would help?"
 
-You’re not trying to generate production code yet — you’re working like a staff engineer: identifying trade-offs and direction.
+You’re not trying to generate production code yet — you’re working like a staff engineer: creating a detailed overview of all the functionality you want to build, identifying trade-offs and direction.
 
 ---
 
