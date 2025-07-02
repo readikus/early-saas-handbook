@@ -8,7 +8,9 @@ Like a lot of engineers in the early 2010s, I got pretty good at solving UI prob
 
 That mindset shift changed everything. And it's the same shift I've made with AI coding — and honestly, I love it.
 
-There's a lot of noise on LinkedIn lately: "AI doesn't work for programming!" What most of these people mean is: they've never learned how to design solutions, build architecture, or iterate cleanly in the first place. There's also a strong correlation between these posts and the green "#OpenToWork" banner — but that's enough salt for now.
+One of the main jobs a technical leader will do is reviewing code and leaving feedback about the wider context, pointing at utility functions that handle various edge cases, how to make it fit in with the coding standards and design patterns in the project. This mindset is also the best way to approach AI coding: treat AI-generated code as a draft that should be reviewed, refined, and aligned with your team's established practices, just as you would with code written by a human contributor.
+
+There's a lot of discussion on LinkedIn lately: "AI doesn't work for programming!" While it's true that AI isn't the right tool for every programming task or context, and there are plenty of situations where traditional approaches are more effective, some of the skepticism comes from a lack of experience with designing solutions, building architecture, or iterating cleanly. It's important to recognize both the limitations and the potential of AI in software development.
 
 You *can* build major, production-grade functionality using AI — *if* you treat it like a real engineering tool, not a party trick.
 
