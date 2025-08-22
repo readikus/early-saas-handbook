@@ -5,7 +5,7 @@ sidebar_position: 10
 
 In 2022, as software engineering salaries soared—a trend I fully support—I faced a challenge. With a limited hiring budget, I needed to bring on a junior developer and provide them with a clear, accelerated path to becoming a principle engineer. This wasn't just about filling a role; it was about crafting a meaningful journey. I envisioned a "wax on, wax off" approach, inspired by distilling years of hard-earned experience into practical lessons. What started as a few bullet points has since evolved into a framework for fostering growth, resilience, and mastery in software engineering.
 
-## What bad looks Personal Traits
+## Personal Traits
 
 | Catalyst Engineer                                      | Inhibitor Engineer                                |
 |-------------------------------------------------------------------------------------|---------------------------------------------------|
@@ -20,22 +20,13 @@ In 2022, as software engineering salaries soared—a trend I fully support—I f
 | Welcomes feedback and uses it to improve.          | Resists feedback and sees it as micromanagement. |
 | Elevates the team, product, and work culture.       | Hinders progress, requiring extra management and effort. |
 
-
-
 A great engineer will try to understand what a user is trying to achieve with a feature, and once they get that, they will be able to self manage themselves to get it done. They will work out what they don't know, know it, then deliver something that fits too all the other constraints and context that they've previously learnt about the product. Eventually a great engineer won't need detailed user stories, as they will know what needs to be delivered and in what order. They will contribute fresh ideas and generally be a pleasure to work with, and inspire you to work even harder.
 
 A non great engineer will not understand their ticket, need chasing for delivery, not consider all the context and technical details they've been told, it will look terrible, have unhelpful UX and it's even debatable if it actually works. Any issues with the app will be met with excuses ("that's not my code" or "it should work". Their lack of delivery will result in them getting increasingly smaller user stories that resemble a task list, and they will complain about being micro managed. You will find them a challenge to work with as they suck enthusim from you.
 
+The two critical factors for success of a seed stage startup are prioritisation and delivery. You are in a race against time to find product/market fit, so what we are working on needs to make the most use of our valuable time, and it also needs to get in front of users. This influences a lot of our technical decisions and how we approach execute.
 
-
-
-The two most important factors for success of a seed stage startup are prioritisation and delivery. You are in a race against time to find product/market fit, so what we are working on needs to make the most use of our valuable time, and it also needs to get in front of users. This influences a lot of our technical decisions and how we approach execute.
-
-
-
-## Personal Traits
-
-
+## Behaviours
 
 As a developer, the important factors of success at an early stage start up are:
 
@@ -77,7 +68,7 @@ Most of these traits fall under the [learn-it-all](https://cloudblogs.microsoft.
 * Considerate of the impact your code has on others that use it. If you change a core library that the rest of the team uses, either make it backwardly compatible or work with the team on a migration path for breaking changes.
 * The Boy Scount Principle of improving legacy code and leaving it better than when you found it.
 
-### Basics of Professionalism in 2024
+### Basics of Professionalism in 2025
 
 This can't be overstate enough: in order to be considered "senior" or "advanced", you need to master the fundamentals of your job. Your managers are going to establish trust by seeing how you deliver relatively simple user stories, and then gradually increase the complexity of work as you progress. If you struggle to deliver simple, bug-free functionality with a great user experience, they are unlikely to trust you with the challenging work.
 
@@ -97,34 +88,23 @@ Strong engineers naturally enjoy using new technologies, and will typically buil
 
 * **Delivering all the requirements** of a user story. That's right, someone has made a list of 3 bullet points in the user story, and they actually want all 3 of them! They'd absolutely love it if you can read through that list, and make sure you've done them all, rather than having to remind you at the code review stage. If the requirements are unclear or there is some issues involved in achieving that, discuss these rather than submit code for review that ignores them.
 
-
-
-
-
-
-
-
-
-
 # The Super Powers
 
-
 ### User Empathy
+
+To be completed...
 
 ### Notetaker
 
 I consider this a super power. Early stage start ups seldom have an dedicated product manager who will capture the nuanced details of each user story, so you either need to have a photographic memory with total recall, or you need to take notes during discussions. Most piece of work start with an initial discussion of all the requirements, and you'll just be getting used to what the app is, what it does, where it gets data from etc. You are unlikely to be following the specific requirements of the new piece of work, and there is likely to be nuanced technical detail of how to approach the work and any special requirements for design patterns to follow. You'll build something that you think is useful, you'll demo it, then get another set of "new" requirements. Except they're not new, they're everything described in the first call, you just didn't make notes. This really is one of the biggest things I wish all engineers did. If you need all details written down for you, early stage start ups are not for you.
 
-## Able to summarise
+### Concise
 
 Being able to summarise, with just enough context for your audience to understand is a superpower. You have two serious types of problem engineers - the overbearing ones that are shit, but think they're amazing and dominate meetings by waffling shit, or the ones that never contribute a single idea.
 
-
-
-
-
 ### Experiments with new technology
 
+Strong engineers are always curious about new technology, especially things that can be used to speed up their day to day work.
 
 # Technical
 
@@ -170,9 +150,9 @@ Being a "high-value" engineer requires a number of different skills, abilities, 
 
 * **Not acting upon feedback**. A senior engineer has seen how you have approached a problem, explained a future issue (i.e. this won't scale, you haven't separated your concerns, or whatever reason. They will see this resistence, and then try to explain why it is good practice to take a certain approach. You then push back again, or say "Yeah, I know that...". This pollutes the codebase with rubbish code, and other engineers will forever be having to work around the problems you've either created, or not solved. Everyone else manages to provide their data in a consistent format, except you.
 
-* **Follow clear technical requirements**. You're able to appreciate that if the user story asks for a field called `url`, the data your code creates has a field called `url`, and not `landing_page`, 'page_address`, `page` or any other random name used for a page, and is consistent with the naming used across the other 1000s tables in the data warehouse. 
+* **Follow clear technical requirements**. You're able to appreciate that if the user story asks for a field called `url`, the data your code creates has a field called `url`, and not `landing_page`, `page_address`, `page` or any other random name used for a page, and is consistent with the naming used across the other 1000s tables in the data warehouse.
 
-Consistency - you don't have 100s of different field names that  multiple field name
+Consistency - you don't have 100s of different field names for the `created_at`/`updated_at`. Each time I query a different field in our our data warehouse, I have to check what random field name the original engineer picked out of the air on the particular moment they created that table.
 
 Sometimes, you've simply done something wrong.
 
@@ -193,9 +173,6 @@ Sometimes, you've simply done something wrong.
 Design patterns are part of the core toolkit of a software architecture. Consider a NextJs app, these typically consist of pages, API end points, actions. Each language, library or framework will tend to have their prefered patterns, that help an engineer to be more productive by solving problems is a consistent way. I good engineer I worked with before said "don't find the framework", when we had a number of team member who were trying to use a (new to them) framework in a way that they'd used another framework, and it just wasn't the same thing. I remember when I moved from jQuery to Angular/React, and I was still trying to "query" DOM elements, rather than thinking more in compontent.
 
 
-
-
-How do you structure Where do
 
 
 
@@ -232,17 +209,7 @@ The modern tech stack tends to be  - in moder
 
 * **"Click Here!"** - junior developers seem to love making their apps as hard to use as possible. It's almost an aspiration, and they put a lot of effort into cluttering up a screen or even adding in entire steps that add no value. UX requires an ability to abstract away to the essence of what a user is trying to do. They haven't come to you app to type text into a field, they've come there to do something, to learn something, buy something. What is that something? Have you made it as easy as possible for them to do that one thing from the point they load the app?
 
-
-
-
-
-
-
-
-
-
-
- **switch off your social notifications**
+**switch off your social notifications**
 
 
 
@@ -262,32 +229,4 @@ Learn about the best practice for your focus area. If you're doing the react fro
 ## Recommended Videos
 
 - [I'm Not The Best Programmer](https://youtu.be/dHN_tlBEt2c)
-
-
-
-
-
-
-Tech Stack
-
-
-Aspiration
-
-- design system
-Assessment Criteria:
-
-
-
-
-
-
-Product & user understanding
-Attention to detail & follows detailed requirements
-Delivery against deadlines
-Learns & Introduces industry best practice
-Quality assurance
-
-
-
-
 
