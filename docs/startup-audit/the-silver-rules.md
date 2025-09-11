@@ -10,7 +10,14 @@ sidebar_position: 3
 
 *Clearly define responsibilities*. Clearly define all the different tasks and decisions that are needed. Having a clear set of boundaries means that everyone knows what is expected from them, and things can’t fall through the cracks. In small teams, where people take on a cross functionality role, there is a big risk of the bystander effect/diffusion of responsibility. In early stage startups the most common issue around this is taking responsibility for the product manager role. Product is easy to blag, but very hard to do properly. When the job is not being done to the level it deserves, others (typically engineers or designers) will step up into this role. Whilst this is good, if a co founder is under the delusion they are doing product, and claim credit for it, think about how that might be received by the people who are actually doing the job.
 
-*What do the founders bring to the table?* Are they able to answer most product questions? Are they detail orientated? Pick your start up carefully. Don’t just go with people that have some relevant experience to bring to the table. Do they really understand the job that the SaaS is helping to achieve? Do they really understand software, or will they say stuff like “can we get people to send in a signed form?” Have they genuinely validated
+*What do the founders bring to the table?* Are they able to answer most product questions? Are they detail orientated? Pick your start up carefully. Don’t just go with people that have some relevant experience to bring to the table. Do they really understand the job that the SaaS is helping to achieve? Do they really understand software, or will they say stuff like “can we get people to send in a signed form?”, and not considering KYC? Have they genuinely validated their idea with users?
+
+*The main leader is 100% committed to the mission*. Building a successful SaaS is not a side hustle. Be wary of joining a project where the driving force isn’t fully dedicated. If the leader keeps a “day job,” the SaaS inevitably becomes an afterthought and lacks the energy it needs to succeed.
+
+When the founder’s only option is to make the company work—ideally under pressure from demanding investors—their focus sharpens. Without that commitment, their responsibilities often shift onto you. Worse, they may still override your decisions or make their own without proper context.
+
+In most cases, this happens because they underestimate the scope of their role. The result is subpar execution that creates friction and frustration across the team.
+
 
 *Get the pacing right.* Every week can’t be a rush. Whilst finding product market fit and meeting investment goals requires a sense of urgency, if every week is a rush to get a new feature ready for a demo/client/whim, urgency soon loses its meaning. If a senior person is constantly insisting on unrealistic deadlines and unwilling to compromise, they’re not the sort of people I can work with. Be clear when there is a deadline, a chance to wow a big potential new client, but not every week. Every new feature won’t be essential for winning clients.
 
