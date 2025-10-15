@@ -40,3 +40,6 @@ Candidates have the luxury of being picky with so many great opportunities in th
 These are all huge red flags to candidates, and will quickly turn to other similar opportunities if they’re getting a bad vibe from the interview process.
 
 If it’s a company that you’re interested in working for, or a candidate that you want to secure that you’re interacting with (as pretty much everyone you’re interviewing should be..) make sure you’re giving a true representation of yourself / your company, so as not to throw up unnecessary red flags 🚩
+
+
+Watch this: https://www.youtube.com/watch?v=Ayfp49yOO6o
