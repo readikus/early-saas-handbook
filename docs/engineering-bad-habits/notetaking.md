@@ -1,5 +1,5 @@
 ---
-title: Engineering Superpower - 📝 Notetaker
+title: That's a new feature - because I never made notes the last 3 times you mentioned it
 sidebar_position: 1
 ---
 
