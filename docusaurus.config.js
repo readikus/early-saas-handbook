@@ -70,7 +70,7 @@ const config = {
             type: "doc",
             docId: "intro",
             position: "left",
-            label: "The Journey Begins",
+            label: "Begin",
           },
           {
             type: "doc",
@@ -102,17 +102,6 @@ const config = {
             docId: "/category/engineering-habits",
             position: "left",
             label: "Engineering Habits",
-          },
-          {
-            type: "doc",
-            docId: "/category/meetings",
-            position: "left",
-            label: "Meetings",
-          },
-          {
-            href: "https://github.com/readikus/docusaurus",
-            label: "GitHub",
-            position: "right",
           },
         ],
       },

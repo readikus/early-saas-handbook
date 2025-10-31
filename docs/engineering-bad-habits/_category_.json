@@ -1,0 +1,8 @@
+{
+  "label": "Engineering Bad Habits",
+  "position": 5,
+  "link": {
+    "type": "generated-index",
+    "description": "Painful habits encountered in engineering teams that can sink products."
+  }
+}
