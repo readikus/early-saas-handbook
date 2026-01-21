@@ -19,12 +19,12 @@ This is the handbook I wish I had when I was in this position! Concise overviews
 The guide is split into the main areas:
 
 * Is the startup right for you? Understand if the product and team are setup for success.
-* Understand the product, and work towards product/market fit.
+* Understand the user problem, the product vision, and work towards product/market fit.
 * Building and nuturing the technical team. How to attract talent & be the model colleague.
 
 In established organisations, these roles are usually assigned to people with experience, training and competence in these areas, but in an early stage startup, the budget for the roles doesn't exist, but the responsibilities do, and if they don't get done, the startup will collapse.
 
-ORIGINAL VERSISON (possibly bnetter)
+ORIGINAL VERSISON (possibly better)
 
 * Find a clear unmet need, define the product vision & recruit your early adopters.
 * Turning the product vision into a reality. Explore the technology that will deliver the proof-of-concept with the least effort.
@@ -38,6 +38,7 @@ From my experience, there are three main problems that you will face. With any o
 
 * The vision - if this is weak and not what a big enough audience want, it will likely fail.
 * The founders - if they lack certain skills or attributes, the product will likely fail.
+* The user – if you're building based on assumptions rather than real user behaviour, the product will likely fail.
 * The team - if these are bad, the product will likely fail.
 
 Next up, have a look at the [Startup Sanity Check](./startup-audit), and try to be as rational as possible. Working at an early stage startup is exciting, but don't waste your time with what is clearly a terrible idea.
