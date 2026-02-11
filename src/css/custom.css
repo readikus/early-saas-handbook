@@ -1,19 +1,19 @@
 /**
  * Custom theme: Linear-inspired dark aesthetic
- * Replaces default Infima green palette with desaturated blues.
+ * Replaces default Infima green palette with teal/cyan.
  * Dark mode is the default (set in docusaurus.config.js).
  */
 
 /* ===== Light mode (fallback) ===== */
 :root {
-  /* Primary: desaturated blue */
-  --ifm-color-primary: #4a7eed;
-  --ifm-color-primary-dark: #3a6edb;
-  --ifm-color-primary-darker: #3064d0;
-  --ifm-color-primary-darkest: #2752ab;
-  --ifm-color-primary-light: #5c8ef0;
-  --ifm-color-primary-lighter: #6c9cf1;
-  --ifm-color-primary-lightest: #9dbdf5;
+  /* Primary: teal/cyan */
+  --ifm-color-primary: #0d9488;
+  --ifm-color-primary-dark: #0f766e;
+  --ifm-color-primary-darker: #115e59;
+  --ifm-color-primary-darkest: #134e4a;
+  --ifm-color-primary-light: #14b8a6;
+  --ifm-color-primary-lighter: #2dd4bf;
+  --ifm-color-primary-lightest: #5eead4;
 
   /* Typography */
   --ifm-font-family-base: 'Inter', system-ui, -apple-system, 'Segoe UI',
@@ -25,7 +25,7 @@
   --ifm-line-height-base: 1.65;
   --ifm-heading-font-weight: 700;
 
-  --docusaurus-highlighted-code-line-bg: rgba(74, 126, 237, 0.1);
+  --docusaurus-highlighted-code-line-bg: rgba(94, 234, 212, 0.1);
 }
 
 /* ===== Dark mode (default) ===== */
@@ -34,14 +34,14 @@
   --ifm-background-color: #0a0f1a;
   --ifm-background-surface-color: #111827;
 
-  /* Primary: desaturated blue — slightly lighter for dark bg contrast */
-  --ifm-color-primary: #5b8def;
-  --ifm-color-primary-dark: #4a7eed;
-  --ifm-color-primary-darker: #3d75ec;
-  --ifm-color-primary-darkest: #2562e0;
-  --ifm-color-primary-light: #6c9cf1;
-  --ifm-color-primary-lighter: #79a5f2;
-  --ifm-color-primary-lightest: #9dbdf5;
+  /* Primary: teal/cyan — lighter for dark bg contrast */
+  --ifm-color-primary: #5eead4;
+  --ifm-color-primary-dark: #2dd4bf;
+  --ifm-color-primary-darker: #14b8a6;
+  --ifm-color-primary-darkest: #0d9488;
+  --ifm-color-primary-light: #99f6e4;
+  --ifm-color-primary-lighter: #b2f5ea;
+  --ifm-color-primary-lightest: #ccfbf1;
 
   /* Text */
   --ifm-font-color-base: #e5e7eb;
@@ -56,8 +56,8 @@
 
   /* Sidebar */
   --ifm-menu-color: #d1d5db;
-  --ifm-menu-color-active: #5b8def;
-  --ifm-menu-color-background-active: rgba(91, 141, 239, 0.1);
+  --ifm-menu-color-active: #5eead4;
+  --ifm-menu-color-background-active: rgba(94, 234, 212, 0.1);
   --ifm-menu-color-background-hover: rgba(255, 255, 255, 0.05);
 
   /* Footer */
@@ -72,8 +72,8 @@
   --ifm-card-border-radius: 8px;
 
   /* Code blocks */
-  --docusaurus-highlighted-code-line-bg: rgba(91, 141, 239, 0.15);
-  --ifm-code-background: rgba(91, 141, 239, 0.1);
+  --docusaurus-highlighted-code-line-bg: rgba(94, 234, 212, 0.15);
+  --ifm-code-background: rgba(94, 234, 212, 0.1);
   --ifm-code-padding-horizontal: 0.4rem;
   --ifm-code-padding-vertical: 0.15rem;
   --ifm-code-border-radius: 4px;
@@ -86,8 +86,8 @@
   --ifm-color-content-secondary: #9ca3af;
 
   /* Links */
-  --ifm-link-color: #5b8def;
-  --ifm-link-hover-color: #79a5f2;
+  --ifm-link-color: #5eead4;
+  --ifm-link-hover-color: #99f6e4;
 }
 
 /* ===== Global refinements ===== */
