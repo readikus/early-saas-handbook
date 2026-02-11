@@ -1,30 +1,119 @@
 /**
- * Any CSS included here will be global. The classic template
- * bundles Infima by default. Infima is a CSS framework designed to
- * work well for content-centric websites.
+ * Custom theme: Linear-inspired dark aesthetic
+ * Replaces default Infima green palette with desaturated blues.
+ * Dark mode is the default (set in docusaurus.config.js).
  */
 
-/* You can override the default Infima variables here. */
+/* ===== Light mode (fallback) ===== */
 :root {
-  --ifm-color-primary: #2e8555;
-  --ifm-color-primary-dark: #29784c;
-  --ifm-color-primary-darker: #277148;
-  --ifm-color-primary-darkest: #205d3b;
-  --ifm-color-primary-light: #33925d;
-  --ifm-color-primary-lighter: #359962;
-  --ifm-color-primary-lightest: #3cad6e;
+  /* Primary: desaturated blue */
+  --ifm-color-primary: #4a7eed;
+  --ifm-color-primary-dark: #3a6edb;
+  --ifm-color-primary-darker: #3064d0;
+  --ifm-color-primary-darkest: #2752ab;
+  --ifm-color-primary-light: #5c8ef0;
+  --ifm-color-primary-lighter: #6c9cf1;
+  --ifm-color-primary-lightest: #9dbdf5;
+
+  /* Typography */
+  --ifm-font-family-base: 'Inter', system-ui, -apple-system, 'Segoe UI',
+    Roboto, 'Helvetica Neue', Arial, sans-serif;
+  --ifm-font-family-monospace: 'SF Mono', Monaco, 'Cascadia Code',
+    'Roboto Mono', Consolas, 'Courier New', monospace;
+  --ifm-font-size-base: 100%;
   --ifm-code-font-size: 95%;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  --ifm-line-height-base: 1.65;
+  --ifm-heading-font-weight: 700;
+
+  --docusaurus-highlighted-code-line-bg: rgba(74, 126, 237, 0.1);
 }
 
-/* For readability concerns, you should choose a lighter palette in dark mode. */
+/* ===== Dark mode (default) ===== */
 [data-theme='dark'] {
-  --ifm-color-primary: #25c2a0;
-  --ifm-color-primary-dark: #21af90;
-  --ifm-color-primary-darker: #1fa588;
-  --ifm-color-primary-darkest: #1a8870;
-  --ifm-color-primary-light: #29d5b0;
-  --ifm-color-primary-lighter: #32d8b4;
-  --ifm-color-primary-lightest: #4fddbf;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+  /* Backgrounds */
+  --ifm-background-color: #0a0f1a;
+  --ifm-background-surface-color: #111827;
+
+  /* Primary: desaturated blue — slightly lighter for dark bg contrast */
+  --ifm-color-primary: #5b8def;
+  --ifm-color-primary-dark: #4a7eed;
+  --ifm-color-primary-darker: #3d75ec;
+  --ifm-color-primary-darkest: #2562e0;
+  --ifm-color-primary-light: #6c9cf1;
+  --ifm-color-primary-lighter: #79a5f2;
+  --ifm-color-primary-lightest: #9dbdf5;
+
+  /* Text */
+  --ifm-font-color-base: #e5e7eb;
+  --ifm-font-color-secondary: #9ca3af;
+  --ifm-heading-color: #f9fafb;
+
+  /* Navbar */
+  --ifm-navbar-background-color: #0a0f1a;
+  --ifm-navbar-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.05);
+  --ifm-navbar-link-color: #d1d5db;
+  --ifm-navbar-link-hover-color: #f9fafb;
+
+  /* Sidebar */
+  --ifm-menu-color: #d1d5db;
+  --ifm-menu-color-active: #5b8def;
+  --ifm-menu-color-background-active: rgba(91, 141, 239, 0.1);
+  --ifm-menu-color-background-hover: rgba(255, 255, 255, 0.05);
+
+  /* Footer */
+  --ifm-footer-background-color: #060a12;
+  --ifm-footer-color: #9ca3af;
+  --ifm-footer-link-color: #d1d5db;
+  --ifm-footer-link-hover-color: #f9fafb;
+  --ifm-footer-title-color: #e5e7eb;
+
+  /* Cards and surfaces */
+  --ifm-card-background-color: #111827;
+  --ifm-card-border-radius: 8px;
+
+  /* Code blocks */
+  --docusaurus-highlighted-code-line-bg: rgba(91, 141, 239, 0.15);
+  --ifm-code-background: rgba(91, 141, 239, 0.1);
+  --ifm-code-padding-horizontal: 0.4rem;
+  --ifm-code-padding-vertical: 0.15rem;
+  --ifm-code-border-radius: 4px;
+
+  /* Borders */
+  --ifm-hr-background-color: rgba(255, 255, 255, 0.08);
+  --ifm-toc-border-color: rgba(255, 255, 255, 0.08);
+
+  /* Table of contents */
+  --ifm-color-content-secondary: #9ca3af;
+
+  /* Links */
+  --ifm-link-color: #5b8def;
+  --ifm-link-hover-color: #79a5f2;
+}
+
+/* ===== Global refinements ===== */
+
+/* Smooth font rendering for dark backgrounds */
+[data-theme='dark'] body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Subtle border on navbar in dark mode */
+[data-theme='dark'] .navbar {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+/* Clean sidebar appearance */
+[data-theme='dark'] .menu__link {
+  border-radius: 6px;
+  transition: background-color 0.15s ease, color 0.15s ease;
+}
+
+/* Softer table-of-contents styling */
+[data-theme='dark'] .table-of-contents__link {
+  color: var(--ifm-color-content-secondary);
+}
+
+[data-theme='dark'] .table-of-contents__link--active {
+  color: var(--ifm-color-primary);
 }
