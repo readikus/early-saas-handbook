@@ -98,8 +98,8 @@ const config = {
             label: 'Understanding the Problem',
             position: 'left',
             items: [
-              { type: 'doc', docId: 'intro', label: 'Begin' },
-              { type: 'doc', docId: '/category/product', label: 'Product' },
+              { type: 'doc', docId: 'intro', label: 'Getting Started', className: 'nav-item--intro' },
+              { to: '/docs/category/product', label: 'Product', className: 'nav-item--product' },
             ],
           },
           {
@@ -107,10 +107,10 @@ const config = {
             label: 'Building the Solution',
             position: 'left',
             items: [
-              { type: 'doc', docId: '/category/building-the-team', label: 'Team' },
-              { type: 'doc', docId: '/category/engineering-process', label: 'Engineering Process' },
-              { type: 'doc', docId: '/category/ai-engineering-cookbook', label: 'AI Cookbook' },
-              { type: 'doc', docId: '/category/engineering-habits', label: 'Engineering Habits' },
+              { to: '/docs/category/building-the-team', label: 'Team', className: 'nav-item--team' },
+              { to: '/docs/category/engineering-process', label: 'Engineering Process', className: 'nav-item--process' },
+              { to: '/docs/category/ai-engineering-cookbook', label: 'AI Cookbook', className: 'nav-item--ai' },
+              { to: '/docs/category/engineering-habits', label: 'Engineering Habits', className: 'nav-item--habits' },
             ],
           },
         ],

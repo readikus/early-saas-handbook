@@ -171,17 +171,61 @@ h2 {
 }
 
 [data-theme='dark'] .dropdown__link {
-  color: var(--ifm-navbar-link-color);
+  color: #f9fafb;
 }
 
 [data-theme='dark'] .dropdown__link:hover {
   background-color: var(--ifm-menu-color-background-hover);
-  color: var(--ifm-navbar-link-hover-color);
+  color: var(--ifm-color-primary);
 }
 
-[data-theme='dark'] .dropdown__link--active {
+[data-theme='dark'] .dropdown__link--active,
+[data-theme='dark'] .dropdown__link--active:hover {
   color: var(--ifm-color-primary);
   background-color: var(--ifm-menu-color-background-active);
+}
+
+/* ===== Dropdown item descriptions ===== */
+
+/* Base style for dropdown items with descriptions */
+.dropdown__menu .dropdown__link[class*="nav-item--"] {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  padding: 8px 12px;
+  line-height: 1.4;
+}
+
+.dropdown__menu .dropdown__link[class*="nav-item--"]::after {
+  font-size: 0.75rem;
+  font-weight: 400;
+  opacity: 0.55;
+  white-space: normal;
+}
+
+/* Per-item descriptions */
+.nav-item--intro::after {
+  content: 'What this handbook covers and who it\2019s for';
+}
+
+.nav-item--product::after {
+  content: 'Validation, user stories, and product management';
+}
+
+.nav-item--team::after {
+  content: 'Hiring, interviews, and organizing your people';
+}
+
+.nav-item--process::after {
+  content: 'Code review, standards, and day-to-day workflow';
+}
+
+.nav-item--ai::after {
+  content: 'Using AI tools effectively in development';
+}
+
+.nav-item--habits::after {
+  content: 'Naming, documentation, and code quality patterns';
 }
 
 /* Mobile responsive: prevent label overflow at 996px breakpoint */
