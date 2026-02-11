@@ -94,41 +94,24 @@ const config = {
         },
         items: [
           {
-            type: "doc",
-            docId: "intro",
-            position: "left",
-            label: "Begin",
+            type: 'dropdown',
+            label: 'Understanding the Problem',
+            position: 'left',
+            items: [
+              { type: 'doc', docId: 'intro', label: 'Begin' },
+              { type: 'doc', docId: '/category/product', label: 'Product' },
+            ],
           },
           {
-            type: "doc",
-            docId: "/category/product",
-            position: "left",
-            label: "Product",
-          },
-          {
-            type: "doc",
-            docId: "/category/building-the-team",
-            position: "left",
-            label: "Team",
-          },
-
-          {
-            type: "doc",
-            docId: "/category/engineering-process",
-            position: "left",
-            label: "Product Engineering",
-          },
-          {
-            type: "doc",
-            docId: "/category/ai-engineering-cookbook",
-            position: "left",
-            label: "AI Cookbook",
-          },
-          {
-            type: "doc",
-            docId: "/category/engineering-habits",
-            position: "left",
-            label: "Engineering Habits",
+            type: 'dropdown',
+            label: 'Building the Solution',
+            position: 'left',
+            items: [
+              { type: 'doc', docId: '/category/building-the-team', label: 'Team' },
+              { type: 'doc', docId: '/category/engineering-process', label: 'Engineering Process' },
+              { type: 'doc', docId: '/category/ai-engineering-cookbook', label: 'AI Cookbook' },
+              { type: 'doc', docId: '/category/engineering-habits', label: 'Engineering Habits' },
+            ],
           },
         ],
       },
