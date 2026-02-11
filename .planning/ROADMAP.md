@@ -42,10 +42,10 @@ Plans:
   2. Navigation labels tell a progression story (understand problem → build team → build product)
   3. Visitor can see which section they are currently in through visual indication
   4. Navigation works responsively on mobile without overflow
-**Plans**: TBD
+**Plans**: 1 plan
 
 Plans:
-- [ ] 02-01: TBD during phase planning
+- [ ] 02-01-PLAN.md — Journey-based dropdown navbar with active state CSS and responsive styling
 
 ### Phase 3: Landing Page Redesign
 **Goal**: Visitors immediately understand the handbook's value proposition before diving into content
