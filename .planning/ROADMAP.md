@@ -28,10 +28,10 @@ Decimal phases appear between their surrounding integers in numeric order.
   2. Site uses custom color palette (not default Infima green) consistently across landing, docs, category, and 404 pages
   3. Typography uses modern font stack consistently across all page types
   4. Code blocks, sidebars, and navigation all respect the dark theme without light-mode artifacts
-**Plans**: TBD
+**Plans**: 1 plan
 
 Plans:
-- [ ] 01-01: TBD during phase planning
+- [ ] 01-01-PLAN.md — Dark mode config, custom color palette, typography, and visual verification
 
 ### Phase 2: Navigation Restructure
 **Goal**: Visitors navigate through a clear journey-based hierarchy, not a flat list of topics
