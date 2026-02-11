@@ -90,6 +90,15 @@
   --ifm-link-hover-color: #99f6e4;
 }
 
+/* ===== Headings ===== */
+h1 {
+  font-size: 1.75rem;
+}
+
+h2 {
+  font-size: 1.4rem;
+}
+
 /* ===== Global refinements ===== */
 
 /* Smooth font rendering for dark backgrounds */

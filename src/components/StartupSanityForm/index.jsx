@@ -133,7 +133,7 @@ const StartupEvaluationForm = () => {
     return (
         <div>
 
-<div style={{ marginBottom: '20px', padding: '15px', border: '1px solid #ccc', borderRadius: '8px', backgroundColor: '#f9f9f9' }}>
+<div style={{ marginBottom: '20px', padding: '15px', border: '1px solid var(--ifm-toc-border-color, #ccc)', borderRadius: '8px', backgroundColor: 'var(--ifm-background-surface-color, #f9f9f9)' }}>
     <p style={{ fontSize: '16px', lineHeight: '1.5' }}>
         Let's start with a quick <strong>sanity check</strong> of the startup to get a realistic idea of whether it is setup for success! This evaluation is designed to help you assess the potential of a startup by evaluating key criteria. 
         You will be asked a series of questions about the startup's founders, market opportunity, product fit, revenue model, technology vision, and financial runway.
