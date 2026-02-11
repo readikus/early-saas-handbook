@@ -90,6 +90,15 @@
   --ifm-link-hover-color: #99f6e4;
 }
 
+/* ===== Hero section: dark bg needs light text in all modes ===== */
+.hero--primary {
+  --ifm-hero-text-color: #f9fafb;
+}
+
+.hero--primary .hero__subtitle {
+  color: #e5e7eb;
+}
+
 /* ===== Headings ===== */
 h1 {
   font-size: 1.75rem;
