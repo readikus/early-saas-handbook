@@ -1,10 +1,7 @@
-//const remarkPlugin = require("remark-plugin");
-
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
-//const lightCodeTheme = require("prism-react-renderer/themes/github");
-//const darkCodeTheme = require("prism-react-renderer/themes/dracula");
+import {themes as prismThemes} from 'prism-react-renderer';
 
 const title = "The Startup Engineer Handbook";
 /** @type {import('@docusaurus/types').Config} */
@@ -29,6 +26,31 @@ const config = {
     defaultLocale: "en",
     locales: ["en"],
   },
+
+  headTags: [
+    {
+      tagName: 'link',
+      attributes: {
+        rel: 'preconnect',
+        href: 'https://fonts.googleapis.com',
+      },
+    },
+    {
+      tagName: 'link',
+      attributes: {
+        rel: 'preconnect',
+        href: 'https://fonts.gstatic.com',
+        crossorigin: 'anonymous',
+      },
+    },
+    {
+      tagName: 'link',
+      attributes: {
+        rel: 'stylesheet',
+        href: 'https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap',
+      },
+    },
+  ],
 
   presets: [
     [
@@ -59,6 +81,11 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      colorMode: {
+        defaultMode: 'dark',
+        disableSwitch: false,
+        respectPrefersColorScheme: false,
+      },
       navbar: {
         title,
         logo: {
@@ -151,8 +178,8 @@ const config = {
         copyright: `Copyright © ${new Date().getFullYear()} Ian Read. Built with Docusaurus.`,
       },
       prism: {
-       // theme: lightCodeTheme,
-       // darkTheme: darkCodeTheme,
+        theme: prismThemes.github,
+        darkTheme: prismThemes.vsDark,
       },
       metadata: [
         { property: 'og:image', content: 'https://startupengineer.work/img/saas-banner.png' },
