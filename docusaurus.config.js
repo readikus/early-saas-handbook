@@ -98,7 +98,7 @@ const config = {
             label: 'Understanding the Problem',
             position: 'left',
             items: [
-              { type: 'doc', docId: 'intro', label: 'Getting Started', className: 'nav-item--intro' },
+              { to: '/docs/intro', label: 'Getting Started', className: 'nav-item--intro' },
               { to: '/docs/category/product', label: 'Product', className: 'nav-item--product' },
             ],
           },
